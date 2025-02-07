@@ -28,6 +28,12 @@ def download_attachments():
     mail.login(EMAIL, PASSWORD)  # Codificar a UTF-8
     mail.select('inbox')  # Selecciona la bandeja de entrada
     
+    # Leer los IDs de correos ya descargados
+    downloaded_ids = set()
+    if os.path.exists('downloaded_emails.txt'):
+        with open('downloaded_emails.txt', 'r') as log_file:
+            downloaded_ids = set(line.strip() for line in log_file)
+
     # Buscar correos que coincidan con el filtro
     status, messages = mail.search(None, SEARCH_CRITERIA)
     if status != 'OK':
@@ -47,6 +53,11 @@ def download_attachments():
 
     # Recorrer los correos
     for email_id in email_ids:
+        email_id_str = email_id.decode()  # Decodificar el ID a cadena
+        if email_id_str in downloaded_ids:
+            print(f"Correo {email_id_str} ya descargado. Saltando...")
+            continue  # Saltar correos ya descargados
+
         status, msg_data = mail.fetch(email_id, '(RFC822)')  # Obtener el correo completo
         for response_part in msg_data:
             if isinstance(response_part, tuple):
@@ -69,6 +80,10 @@ def download_attachments():
                         with open(filepath, 'wb') as f:
                             f.write(part.get_payload(decode=True))
                         print(f"Descargado: {filename}")
+
+        # Registrar el ID del correo descargado
+        with open('downloaded_emails.txt', 'a') as log_file:
+            log_file.write(f"{email_id_str}\n")  # Escribir el ID como cadena
 
     # Cerrar la conexión
     mail.logout()
