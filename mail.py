@@ -21,8 +21,9 @@ def clean_filename(filename):
     return "".join(c if c.isalnum() or c in ['.', '_', '-'] else "_" for c in filename)
 
 def download_attachments():
-    """Conecta a Gmail y descarga archivos adjuntos."""
+    """Conecta a Gmail y descarga archivos adjuntos y devuelve una lista de los archivos descargados."""
     print("Iniciando descarga de correos...")
+    downloaded_files = []  # Lista para almacenar los nombres de los archivos descargados
     # Conectar al servidor IMAP
     mail = imaplib.IMAP4_SSL(IMAP_SERVER)
     mail.login(EMAIL, PASSWORD)  # Codificar a UTF-8
@@ -38,14 +39,14 @@ def download_attachments():
     status, messages = mail.search(None, SEARCH_CRITERIA)
     if status != 'OK':
         print("No se encontraron correos.")
-        return
+        return []
     
     # Obtener la lista de IDs de los correos
     email_ids = messages[0].split()
 
     if not email_ids:
         print("No se encontraron correos con archivos adjuntos.")
-        return
+        return []
 
     # Crear la carpeta para los archivos adjuntos
     if not os.path.exists(DOWNLOAD_FOLDER):
@@ -80,6 +81,7 @@ def download_attachments():
                         with open(filepath, 'wb') as f:
                             f.write(part.get_payload(decode=True))
                         print(f"Descargado: {filename}")
+                        downloaded_files.append(filename)  # Agregar el nombre del archivo a la lista
 
         # Registrar el ID del correo descargado
         with open('downloaded_emails.txt', 'a') as log_file:
@@ -87,6 +89,8 @@ def download_attachments():
 
     # Cerrar la conexión
     mail.logout()
+    return downloaded_files  # Devolver la lista de archivos descargados
 
 if __name__ == '__main__':
-    download_attachments()
+    downloaded_files = download_attachments()
+    print(f"Archivos descargados: {downloaded_files}")
