@@ -33,8 +33,7 @@ def download_attachments():
     if status != 'OK':
         print("No se encontraron correos.")
         return
-
-
+    
     # Obtener la lista de IDs de los correos
     email_ids = messages[0].split()
 
