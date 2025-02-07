@@ -1,0 +1,18 @@
+
+# .gitignore
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar carpetas de descarga
+files/
+
+# Ignorar archivos de compilación de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+.idea/
+*.swp
