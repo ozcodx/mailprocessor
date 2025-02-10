@@ -74,6 +74,19 @@ def download_attachments():
                     # Obtener el nombre del archivo adjunto
                     filename = part.get_filename()
                     if filename:
+                        # Decodificar el nombre del archivo si está en formato MIME
+                        decoded_header = decode_header(filename)
+                        filename = ''.join(
+                            str(t[0], t[1] if t[1] else 'utf-8') if isinstance(t[0], bytes) else t[0]
+                            for t in decoded_header
+                        )
+                        
+                        # Asegurarse de que el nombre del archivo tenga la extensión correcta
+                        if not (filename.lower().endswith(('.xlsx', '.xls', '.csv'))):
+                            print(f"Archivo {filename} no es un tipo soportado. Saltando...")
+                            continue  # Saltar archivos que no son .xls, .xlsx o .csv
+
+                        # Limpiar el nombre del archivo
                         filename = clean_filename(filename)
                         filepath = os.path.join(DOWNLOAD_FOLDER, filename)
 
