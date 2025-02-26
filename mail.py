@@ -20,10 +20,39 @@ def clean_filename(filename):
         filename = filename.decode()
     return "".join(c if c.isalnum() or c in ['.', '_', '-'] else "_" for c in filename)
 
-def download_attachments():
-    """Conecta a Gmail y descarga archivos adjuntos y devuelve una lista de los archivos descargados."""
+def clean_downloaded_emails():
+    """
+    Limpia el registro de correos descargados para forzar una nueva descarga.
+    
+    Returns:
+        bool: True si se limpió correctamente, False en caso contrario.
+    """
+    try:
+        if os.path.exists('downloaded_emails.txt'):
+            os.remove('downloaded_emails.txt')
+            print("Registro de correos descargados eliminado.")
+        return True
+    except Exception as e:
+        print(f"Error al limpiar el registro de correos: {e}")
+        return False
+
+def download_attachments(force_download=False):
+    """
+    Conecta a Gmail y descarga archivos adjuntos y devuelve una lista de los archivos descargados.
+    
+    Args:
+        force_download (bool): Si es True, fuerza la descarga incluso si ya existen.
+        
+    Returns:
+        list: Lista de nombres de archivos descargados.
+    """
     print("Iniciando descarga de correos...")
     downloaded_files = []  # Lista para almacenar los nombres de los archivos descargados
+    
+    # Si se fuerza la descarga, limpiar el registro de correos descargados
+    if force_download:
+        clean_downloaded_emails()
+    
     # Conectar al servidor IMAP
     mail = imaplib.IMAP4_SSL(IMAP_SERVER)
     mail.login(EMAIL, PASSWORD)  # Codificar a UTF-8
@@ -55,7 +84,7 @@ def download_attachments():
     # Recorrer los correos
     for email_id in email_ids:
         email_id_str = email_id.decode()  # Decodificar el ID a cadena
-        if email_id_str in downloaded_ids:
+        if email_id_str in downloaded_ids and not force_download:
             print(f"Correo {email_id_str} ya descargado. Saltando...")
             continue  # Saltar correos ya descargados
 

@@ -1,0 +1,450 @@
+INFORME DE ESTADO FINANCIERO
+==================================================
+Fecha de generación: 2025-02-26 15:34:55
+
+RESUMEN GENERAL
+------------------------------
+Total Activos: $12,020,652,478.80
+Total Pasivos: $-36,796,591,479.65
+Total Patrimonio: $15,291,847,174.72
+Utilidad: $0.00
+
+RESUMEN POR CATEGORÍA
+------------------------------
+Animales: $2,303,444,825.00
+Oficina: $28,145,100.00
+Legal: $-9,783,278,657.67
+Mejoras: $864,645,747.90
+Otros: $-2,897,048,841.36
+
+DETALLES POR CATEGORÍA
+==================================================
+
+ANIMALES
+------------------------------
+Código: 144505
+Descripción: Ganado en pie
+Valor: $2,283,937,319.00
+Tipo: Activo
+
+Código: 144520
+Descripción: Ganado en Participación.
+Valor: $19,507,506.00
+Tipo: Activo
+
+
+OFICINA
+------------------------------
+Código: 1524
+Descripción: Equipo de oficina
+Valor: $9,381,700.00
+Tipo: Activo
+
+Código: 152405
+Descripción: Muebles y enseres
+Valor: $1,899,900.00
+Tipo: Activo
+
+Código: 15240501
+Descripción: Muebles y enseres
+Valor: $1,899,900.00
+Tipo: Activo
+
+Código: 152410
+Descripción: Equipos
+Valor: $7,481,800.00
+Tipo: Activo
+
+Código: 15241001
+Descripción: Equipos
+Valor: $7,481,800.00
+Tipo: Activo
+
+
+LEGAL
+------------------------------
+Código: 2365
+Descripción: Retenciones en la fuente
+Valor: $-156,648.00
+Tipo: Pasivo
+
+Código: 236540
+Descripción: Retención por compras
+Valor: $-156,648.00
+Tipo: Pasivo
+
+Código: 23654001
+Descripción: Retención por compras 2,5%
+Valor: $-156,648.00
+Tipo: Pasivo
+
+Código: 2370
+Descripción: Aportes a empresas promotoras de salud eps
+Valor: $-2,865,391.00
+Tipo: Pasivo
+
+Código: 237005
+Descripción: Aportes a entidades promotoras de salud eps
+Valor: $-414,467.32
+Tipo: Pasivo
+
+Código: 23700501
+Descripción: Aportes a entidades promotoras de salud eps
+Valor: $-414,467.32
+Tipo: Pasivo
+
+Código: 237010
+Descripción: Aportes al icbf Sena y cajas de compensación
+Valor: $-390,900.00
+Tipo: Pasivo
+
+Código: 23701001
+Descripción: Aportes al icbf Sena y cajas de compensación
+Valor: $-390,900.00
+Tipo: Pasivo
+
+Código: 237015
+Descripción: Aportes arl
+Valor: $-215,800.00
+Tipo: Pasivo
+
+Código: 23701501
+Descripción: Aportes arl
+Valor: $-215,800.00
+Tipo: Pasivo
+
+Código: 237045
+Descripción: Fondos
+Valor: $-1,844,223.68
+Tipo: Pasivo
+
+Código: 23704501
+Descripción: Fondos
+Valor: $-1,844,223.68
+Tipo: Pasivo
+
+Código: 2380
+Descripción: Acreedores varios
+Valor: $-3,258,070,846.89
+Tipo: Pasivo
+
+Código: 238095
+Descripción: Otros
+Valor: $-3,258,070,846.89
+Tipo: Pasivo
+
+Código: 23809502
+Descripción: Rios
+Valor: $-3,257,017,846.89
+Tipo: Pasivo
+
+Código: 23809507
+Descripción: Activando
+Valor: $-1,053,000.00
+Tipo: Pasivo
+
+
+MEJORAS
+------------------------------
+Código: 1504
+Descripción: Terrenos
+Valor: $67,000,000.00
+Tipo: Activo
+
+Código: 150405
+Descripción: Urbanos
+Valor: $67,000,000.00
+Tipo: Activo
+
+Código: 15040505
+Descripción: Terrenos Urbanos
+Valor: $67,000,000.00
+Tipo: Activo
+
+Código: 1520
+Descripción: Maquinaria y Equipo
+Valor: $329,859,205.95
+Tipo: Activo
+
+Código: 152005
+Descripción: Maquinaria
+Valor: $316,859,205.95
+Tipo: Activo
+
+Código: 152010
+Descripción: Brete Ganadero
+Valor: $13,000,000.00
+Tipo: Activo
+
+Código: 1540
+Descripción: Flota y equipo de transporte
+Valor: $10,737,000.00
+Tipo: Activo
+
+Código: 154015
+Descripción: VEHICULOS
+Valor: $10,737,000.00
+Tipo: Activo
+
+Código: 159225
+Descripción: Maquinaria y Equipo
+Valor: $-8,773,332.00
+Tipo: Activo
+
+Código: 15922505
+Descripción: Maquinaria
+Valor: $-8,773,332.00
+Tipo: Activo
+
+
+OTROS
+------------------------------
+Código: 1
+Descripción: Activo
+Valor: $2,932,938,701.95
+Tipo: Activo
+
+Código: 11
+Descripción: Efectivo y equivalentes de efectivo
+Valor: $45,048,897.00
+Tipo: Activo
+
+Código: 1105
+Descripción: Caja
+Valor: $45,048,897.00
+Tipo: Activo
+
+Código: 110510
+Descripción: Cajas menores
+Valor: $45,048,897.00
+Tipo: Activo
+
+Código: 11051001
+Descripción: Cajas menores
+Valor: $45,048,897.00
+Tipo: Activo
+
+Código: 13
+Descripción: Deudores comerciales y otras cuentas por cobrar
+Valor: $176,240,406.00
+Tipo: Activo
+
+Código: 1330
+Descripción: Anticipos y avances
+Valor: $165,387,158.00
+Tipo: Activo
+
+Código: 133005
+Descripción: A proveedores
+Valor: $4,970,000.00
+Tipo: Activo
+
+Código: 13300501
+Descripción: A proveedores
+Valor: $4,970,000.00
+Tipo: Activo
+
+Código: 133010
+Descripción: A contratistas
+Valor: $158,200,000.00
+Tipo: Activo
+
+Código: 13301001
+Descripción: A contratistas
+Valor: $158,200,000.00
+Tipo: Activo
+
+Código: 133015
+Descripción: A trabajadores
+Valor: $2,217,158.00
+Tipo: Activo
+
+Código: 13301501
+Descripción: A Colaboradores
+Valor: $110,000.00
+Tipo: Activo
+
+Código: 13301502
+Descripción: Otros
+Valor: $2,107,158.00
+Tipo: Activo
+
+Código: 1380
+Descripción: Deudores varios
+Valor: $10,853,248.00
+Tipo: Activo
+
+Código: 138005
+Descripción: Otros
+Valor: $10,853,248.00
+Tipo: Activo
+
+Código: 13800511
+Descripción: PTL
+Valor: $10,853,248.00
+Tipo: Activo
+
+Código: 14
+Descripción: Inventarios
+Valor: $2,303,444,825.00
+Tipo: Activo
+
+Código: 1445
+Descripción: Semovientes
+Valor: $2,303,444,825.00
+Tipo: Activo
+
+Código: 15
+Descripción: Propiedad planta y equipo
+Valor: $408,204,573.95
+Tipo: Activo
+
+Código: 1592
+Descripción: Depreciación acumulada
+Valor: $-8,773,332.00
+Tipo: Activo
+
+Código: 2
+Descripción: Pasivo
+Valor: $-7,356,148,116.59
+Tipo: Pasivo
+
+Código: 23
+Descripción: Acreedores comerciales y otras cuentas por pagar
+Valor: $-7,340,009,490.89
+Tipo: Pasivo
+
+Código: 2335
+Descripción: Costos y gastos por pagar
+Valor: $-4,697,997.00
+Tipo: Pasivo
+
+Código: 233525
+Descripción: Honorarios
+Valor: $-4,500,000.00
+Tipo: Pasivo
+
+Código: 23352501
+Descripción: Honorarios
+Valor: $-4,500,000.00
+Tipo: Pasivo
+
+Código: 233595
+Descripción: Otros
+Valor: $-197,997.00
+Tipo: Pasivo
+
+Código: 23359501
+Descripción: Otros
+Valor: $-197,997.00
+Tipo: Pasivo
+
+Código: 2355
+Descripción: Deudas con Accionistas o Socios
+Valor: $-4,074,218,608.00
+Tipo: Pasivo
+
+Código: 235510
+Descripción: Socios
+Valor: $-4,074,218,608.00
+Tipo: Pasivo
+
+Código: 23551001
+Descripción: Medellin
+Valor: $-1,929,122,979.00
+Tipo: Pasivo
+
+Código: 23551002
+Descripción: Pereira
+Valor: $-2,145,095,629.00
+Tipo: Pasivo
+
+Código: 25
+Descripción: Beneficios a empleados
+Valor: $-16,138,625.70
+Tipo: Pasivo
+
+Código: 2505
+Descripción: Salarios por pagar
+Valor: $-287,729.00
+Tipo: Pasivo
+
+Código: 250505
+Descripción: Salarios por pagar
+Valor: $-287,729.00
+Tipo: Pasivo
+
+Código: 25050501
+Descripción: Salarios por pagar
+Valor: $-287,729.00
+Tipo: Pasivo
+
+Código: 2510
+Descripción: Pasivo estimado para obligaciones laborales
+Valor: $-15,850,896.70
+Tipo: Pasivo
+
+Código: 251010
+Descripción: Pasivo estimado para obligaciones laborales
+Valor: $-15,850,896.70
+Tipo: Pasivo
+
+Código: 25101001
+Descripción: Cesantías
+Valor: $-6,616,984.00
+Tipo: Pasivo
+
+Código: 2510100101
+Descripción: Cesantías
+Valor: $-6,616,984.00
+Tipo: Pasivo
+
+Código: 25101002
+Descripción: Intereses sobre cesantías
+Valor: $-794,027.28
+Tipo: Pasivo
+
+Código: 2510100201
+Descripción: Intereses sobre cesantías
+Valor: $-794,027.28
+Tipo: Pasivo
+
+Código: 25101003
+Descripción: Vacaciones
+Valor: $-4,246,422.42
+Tipo: Pasivo
+
+Código: 2510100301
+Descripción: Vacaciones
+Valor: $-4,246,422.42
+Tipo: Pasivo
+
+Código: 25101004
+Descripción: Prima de servicios
+Valor: $-4,193,463.00
+Tipo: Pasivo
+
+Código: 2510100401
+Descripción: Prima de servicios
+Valor: $-4,193,463.00
+Tipo: Pasivo
+
+Código: 3
+Descripción: Patrimonio
+Valor: $4,423,209,414.64
+Tipo: Patrimonio
+
+Código: 36
+Descripción: Resultado del ejercicio
+Valor: $3,622,879,253.36
+Tipo: Patrimonio
+
+Código: 3610
+Descripción: Perdida del ejercicio
+Valor: $3,622,879,253.36
+Tipo: Patrimonio
+
+Código: 361005
+Descripción: Perdida del ejercicio
+Valor: $3,622,879,253.36
+Tipo: Patrimonio
