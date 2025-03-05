@@ -23,33 +23,31 @@ def generate_report(financial_data, analysis_results, output_folder=None, filena
     # Crear el informe
     informe = []
     informe.append("INFORME DE ESTADO FINANCIERO")
-    informe.append("=" * 50)
-    informe.append(f"Fecha de generación: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    informe.append("-" * 30)
     informe.append("")
     
     # Resumen general
-    informe.append("RESUMEN GENERAL")
-    informe.append("-" * 30)
-    informe.append(f"Total Activos: ${analysis_results['total_activos']:,.2f}")
-    informe.append(f"Total Pasivos: ${analysis_results['total_pasivos']:,.2f}")
-    informe.append(f"Total Patrimonio: ${analysis_results['total_patrimonio']:,.2f}")
-    informe.append(f"Utilidad: ${analysis_results['utilidad']:,.2f}")
+    informe.append(f"Total Ingresos: ${analysis_results['total_ingresos']:,.2f}")
     informe.append("")
     
-    # Resumen por categoría
-    informe.append("RESUMEN POR CATEGORÍA")
-    informe.append("-" * 30)
+    # Egresos por categoría
+    informe.append(f"Total Egresos: ${analysis_results['total_gastos'] + analysis_results['total_costos']:,.2f}")
     # Ordenar categorías para que aparezcan en un orden específico
     orden_categorias = ["animales", "praderas", "oficina", "legal", "mejoras", "otros"]
     for categoria in orden_categorias:
         if categoria in analysis_results["resumen_por_categoria"]:
             valor = analysis_results["resumen_por_categoria"][categoria]
-            informe.append(f"{categoria.capitalize()}: ${valor:,.2f}")
+            informe.append(f"    {categoria.capitalize()}: ${valor:,.2f}")
+    informe.append("")
+    
+    # Total utilidad
+    informe.append(f"Total Utilidad: ${analysis_results['utilidad']:,.2f}")
     informe.append("")
     
     # Detalles por categoría
-    informe.append("DETALLES POR CATEGORÍA")
-    informe.append("=" * 50)
+    informe.append("-" * 30)
+    informe.append("Detalles de cada categoria.")
+    informe.append("")
     
     # Agrupar datos por categoría
     datos_por_categoria = {}

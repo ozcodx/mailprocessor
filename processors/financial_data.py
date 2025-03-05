@@ -1,14 +1,14 @@
 import pandas as pd
 import numpy as np
 
-# Diccionario de categorías con sus códigos parciales (prefijos)
-# Basado en la estructura de cuentas contables colombianas y adaptado a las categorías solicitadas
+# Diccionario de categorías con sus IDs principales
+# Los IDs más cortos definen las categorías principales
 CATEGORIAS = {
-    "animales": ["1240", "1241", "1242", "1243", "1244", "1245", "5240", "5241", "5242", "5243", "5244", "5245"],
-    "praderas": ["1230", "1231", "1232", "1233", "5230", "5231", "5232", "5233"],
-    "oficina": ["1524", "1528", "5110", "5111", "5112", "5113", "5114", "5115", "5116", "5117", "5118"],
-    "legal": ["2365", "2367", "2368", "2370", "2380", "5195", "5196", "5197", "5198", "5199"],
-    "mejoras": ["1504", "1508", "1516", "1520", "1540", "1560", "1562", "1564", "5140", "5145", "5150", "5155"],
+    "animales": ["1445"],  # Semovientes
+    "praderas": ["1504"],  # Terrenos
+    "oficina": ["2335"],   # Costos y gastos por pagar
+    "legal": ["2365", "2370", "25"],  # Retenciones, aportes y beneficios a empleados
+    "mejoras": ["1520", "1524", "1540", "1592"],  # Maquinaria, equipo, flota y depreciación
     "otros": []  # Categoría por defecto para códigos que no coinciden con ninguna otra categoría
 }
 
@@ -139,6 +139,7 @@ def clasificar_cuenta(codigo, descripcion):
 def clasificar_categoria(codigo, descripcion):
     """
     Clasifica una cuenta contable según su código en una de las categorías definidas.
+    Usa la jerarquía de IDs para determinar la categoría.
     
     Args:
         codigo (str): Código de la cuenta contable.
@@ -153,28 +154,32 @@ def clasificar_categoria(codigo, descripcion):
     # Convertir a string si no lo es
     codigo_str = str(codigo)
     
-    # Buscar coincidencias con los prefijos de cada categoría
-    for categoria, prefijos in CATEGORIAS.items():
-        for prefijo in prefijos:
-            if codigo_str.startswith(prefijo):
-                return categoria
+    # Ignorar códigos que empiezan por 3 (patrimonio)
+    if codigo_str.startswith('3'):
+        return "otros"
     
-    # Si hay palabras clave en la descripción, usar eso como pista adicional
-    if descripcion:
-        descripcion_lower = descripcion.lower()
-        if any(keyword in descripcion_lower for keyword in ["animal", "ganado", "bovino", "porcino", "avícola", "veterinaria"]):
-            return "animales"
-        elif any(keyword in descripcion_lower for keyword in ["pradera", "pasto", "forraje", "cultivo", "siembra", "agrícola"]):
-            return "praderas"
-        elif any(keyword in descripcion_lower for keyword in ["oficina", "administrativo", "papelería", "computador", "software", "mueble"]):
-            return "oficina"
-        elif any(keyword in descripcion_lower for keyword in ["legal", "impuesto", "tributo", "fiscal", "abogado", "notaría"]):
-            return "legal"
-        elif any(keyword in descripcion_lower for keyword in ["mejora", "construcción", "edificio", "infraestructura", "maquinaria"]):
-            return "mejoras"
+    # Buscar coincidencias con los IDs principales de cada categoría
+    for categoria, ids_principales in CATEGORIAS.items():
+        for id_principal in ids_principales:
+            # Si el código actual es un ancestro del ID principal
+            if codigo_str.startswith(id_principal):
+                return categoria
     
     # Si no hay coincidencias, asignar a "otros"
     return "otros"
+
+def is_parent_code(parent_code, child_code):
+    """
+    Determina si un código es padre de otro basado en la longitud y prefijo.
+    
+    Args:
+        parent_code (str): Código potencial padre
+        child_code (str): Código potencial hijo
+        
+    Returns:
+        bool: True si parent_code es padre de child_code
+    """
+    return len(parent_code) < len(child_code) and child_code.startswith(parent_code)
 
 def analyze_financial_data(financial_data):
     """
@@ -202,8 +207,34 @@ def analyze_financial_data(financial_data):
         "indicadores": {}
     }
     
-    # Calcular totales por tipo y categoría
-    for registro in financial_data:
+    # Crear una lista de códigos ordenados por longitud (más largos primero)
+    codigos_ordenados = sorted(
+        [(r["codigo"], r) for r in financial_data],
+        key=lambda x: len(x[0]),
+        reverse=True
+    )
+    
+    # Conjunto para rastrear códigos que ya han sido procesados
+    codigos_procesados = set()
+    
+    # Procesar cada código, empezando por los más largos
+    for codigo, registro in codigos_ordenados:
+        if codigo in codigos_procesados:
+            continue
+            
+        # Verificar si este código es hijo de algún código ya procesado
+        es_hijo = False
+        for codigo_procesado in codigos_procesados:
+            if is_parent_code(codigo_procesado, codigo):
+                es_hijo = True
+                break
+        
+        if es_hijo:
+            continue
+            
+        # Si llegamos aquí, el código no es hijo de ningún código procesado
+        codigos_procesados.add(codigo)
+        
         tipo = registro["tipo"]
         valor = registro["valor"]
         categoria = registro["categoria"]
@@ -266,44 +297,76 @@ def generate_financial_report(financial_data, analysis_results=None):
     
     # Generar el informe
     informe = []
-    informe.append("INFORME FINANCIERO")
-    informe.append("=" * 50)
+    informe.append("INFORME DE ESTADO FINANCIERO")
+    informe.append("-" * 30)
     informe.append("")
     
     # Resumen general
-    informe.append("RESUMEN GENERAL")
-    informe.append("-" * 30)
-    informe.append(f"Total Activos: ${analysis_results['total_activos']:,.2f}")
-    informe.append(f"Total Pasivos: ${analysis_results['total_pasivos']:,.2f}")
-    informe.append(f"Total Patrimonio: ${analysis_results['total_patrimonio']:,.2f}")
     informe.append(f"Total Ingresos: ${analysis_results['total_ingresos']:,.2f}")
-    informe.append(f"Total Gastos: ${analysis_results['total_gastos']:,.2f}")
-    informe.append(f"Total Costos: ${analysis_results['total_costos']:,.2f}")
-    informe.append(f"Utilidad: ${analysis_results['utilidad']:,.2f}")
     informe.append("")
     
-    # Indicadores financieros
-    informe.append("INDICADORES FINANCIEROS")
-    informe.append("-" * 30)
-    informe.append(f"Endeudamiento: {analysis_results['indicadores']['endeudamiento']:.2%}")
-    informe.append(f"Liquidez: {analysis_results['indicadores']['liquidez']:.2f}")
-    informe.append("")
-    
-    # Resumen por categoría
-    informe.append("RESUMEN POR CATEGORÍA")
-    informe.append("-" * 30)
+    # Egresos por categoría
+    informe.append(f"Total Egresos: ${analysis_results['total_gastos'] + analysis_results['total_costos']:,.2f}")
     # Ordenar categorías para que aparezcan en un orden específico
     orden_categorias = ["animales", "praderas", "oficina", "legal", "mejoras", "otros"]
     for categoria in orden_categorias:
         if categoria in analysis_results["resumen_por_categoria"]:
             valor = analysis_results["resumen_por_categoria"][categoria]
-            informe.append(f"{categoria.capitalize()}: ${valor:,.2f}")
+            informe.append(f"    {categoria.capitalize()}: ${valor:,.2f}")
     informe.append("")
     
-    # Resumen por tipo
-    informe.append("RESUMEN POR TIPO")
+    # Total utilidad
+    informe.append(f"Total Utilidad: ${analysis_results['utilidad']:,.2f}")
+    informe.append("")
+    
+    # Detalles por categoría
     informe.append("-" * 30)
-    for tipo, valor in analysis_results["resumen_por_tipo"].items():
-        informe.append(f"{tipo}: ${valor:,.2f}")
+    informe.append("Detalles de cada categoria.")
+    informe.append("")
+    
+    # Agrupar datos por categoría
+    datos_por_categoria = {}
+    for registro in financial_data:
+        categoria = registro["categoria"]
+        if categoria not in datos_por_categoria:
+            datos_por_categoria[categoria] = []
+        datos_por_categoria[categoria].append(registro)
+    
+    # Mostrar detalles de cada categoría
+    for categoria in orden_categorias:
+        if categoria in datos_por_categoria:
+            informe.append(f"\n{categoria.upper()}")
+            informe.append("-" * 30)
+            
+            # Ordenar registros por longitud del código (más largos primero)
+            registros = sorted(datos_por_categoria[categoria], 
+                             key=lambda x: len(x["codigo"]), 
+                             reverse=True)
+            
+            # Conjunto para rastrear códigos que ya han sido procesados
+            codigos_procesados = set()
+            
+            # Mostrar solo los registros con códigos finales
+            for registro in registros:
+                codigo = registro["codigo"]
+                
+                # Verificar si este código es hijo de algún código ya procesado
+                es_hijo = False
+                for codigo_procesado in codigos_procesados:
+                    if is_parent_code(codigo_procesado, codigo):
+                        es_hijo = True
+                        break
+                
+                if es_hijo:
+                    continue
+                
+                # Si llegamos aquí, el código no es hijo de ningún código procesado
+                codigos_procesados.add(codigo)
+                
+                informe.append(f"Código: {codigo}")
+                informe.append(f"Descripción: {registro['descripcion']}")
+                informe.append(f"Valor: ${registro['valor']:,.2f}")
+                informe.append(f"Tipo: {registro['tipo']}")
+                informe.append("")
     
     return "\n".join(informe) 
