@@ -1,6 +1,7 @@
 import os
 import sys
 from dotenv import load_dotenv
+import logging
 
 # Cargar variables de entorno
 load_dotenv()
@@ -24,7 +25,7 @@ def download_attachments(force_download=False):
         downloaded_files = mail.download_attachments(force_download)
         return downloaded_files
     except Exception as e:
-        print(f"Error al descargar archivos adjuntos: {e}")
+        logging.error(f"Error al descargar archivos adjuntos: {e}")
         return []
 
 def clean_downloaded_emails():
@@ -44,8 +45,8 @@ def clean_downloaded_emails():
             mail.clean_downloaded_emails()
             return True
         else:
-            print("La función clean_downloaded_emails no está disponible en el módulo mail.")
+            logging.warning("La función clean_downloaded_emails no está disponible en el módulo mail.")
             return False
     except Exception as e:
-        print(f"Error al limpiar correos descargados: {e}")
+        logging.error(f"Error al limpiar correos descargados: {e}")
         return False 

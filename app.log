@@ -1,2 +1,1351 @@
 2025-03-06 13:46:46,488 - INFO - Modo debug activado - Reportes anteriores eliminados
 2025-03-06 13:46:49,932 - INFO - Informe generado exitosamente: reportes/informe_financiero_20250306_134649.txt
+2025-03-06 14:00:23,939 - INFO - Modo debug activado - Reportes anteriores eliminados
+2025-03-06 14:00:27,550 - INFO - Informe generado exitosamente: reportes/informe_financiero_20250306_140027.txt
+2025-03-06 14:11:18,624 - INFO - Iniciando procesamiento...
+2025-03-06 14:11:18,625 - INFO - Limpiando reportes anteriores...
+2025-03-06 14:11:18,626 - INFO - Descargando archivos...
+2025-03-06 14:11:22,207 - INFO - Cargando archivos...
+2025-03-06 14:11:22,372 - INFO - Procesando: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:11:22,411 - INFO - Informe guardado: reportes/informe_financiero_20250306_141122.txt
+2025-03-06 14:11:22,412 - INFO - Procesamiento completado.
+2025-03-06 14:18:00,355 - INFO - Informe guardado: reportes/informe_financiero_20250306_141800.txt
+2025-03-06 14:18:10,558 - INFO - Informe guardado: reportes/informe_financiero_20250306_141810.txt
+2025-03-06 14:32:31,236 - INFO - Reporte eliminado: reportes\informe_financiero_20250306_141810.txt
+2025-03-06 14:32:31,257 - INFO - Iniciando descarga de correos...
+2025-03-06 14:32:38,390 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:32:38,391 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:32:38,894 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:32:39,232 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:32:39,400 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:32:39,402 - ERROR - Error: 'total_ingresos'
+2025-03-06 14:33:02,206 - INFO - Iniciando descarga de correos...
+2025-03-06 14:33:05,900 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:33:05,900 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:33:06,821 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:33:07,040 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:33:07,191 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:33:07,195 - ERROR - Error: 'total_ingresos'
+2025-03-06 14:34:09,457 - INFO - Iniciando descarga de correos...
+2025-03-06 14:34:13,850 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:34:13,851 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:34:14,152 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:34:14,393 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:34:14,617 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:34:14,619 - ERROR - Error: 'total_ingresos'
+2025-03-06 14:34:32,747 - INFO - Iniciando descarga de correos...
+2025-03-06 14:34:35,889 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:34:35,890 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:34:36,221 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:34:36,543 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:34:36,700 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:34:36,702 - ERROR - Error: 'detalles_completos'
+2025-03-06 14:34:57,387 - INFO - Iniciando descarga de correos...
+2025-03-06 14:35:01,446 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:35:01,447 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:35:01,799 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:35:02,101 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:35:02,256 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:35:02,259 - ERROR - Error: 'ancestros'
+2025-03-06 14:35:16,303 - INFO - Iniciando descarga de correos...
+2025-03-06 14:35:20,990 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:35:20,991 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:35:21,651 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:35:22,760 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:35:22,932 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:35:22,935 - INFO - Informe guardado: reportes/informe_financiero_20250306_143522.txt
+2025-03-06 14:35:48,147 - INFO - Reporte eliminado: reportes\informe_financiero_20250306_143522.txt
+2025-03-06 14:35:48,166 - INFO - Iniciando descarga de correos...
+2025-03-06 14:35:51,168 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:35:51,168 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:35:51,492 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:35:51,690 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:35:51,839 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:35:51,842 - INFO - Informe guardado: reportes/informe_financiero_20250306_143551.txt
+2025-03-06 14:37:01,036 - INFO - Reporte eliminado: reportes\informe_financiero_20250306_143551.txt
+2025-03-06 14:37:01,053 - INFO - Iniciando descarga de correos...
+2025-03-06 14:37:04,070 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:37:04,071 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:37:04,450 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:37:04,824 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:37:04,981 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:37:04,986 - INFO - Informe guardado: reportes/informe_financiero_20250306_143704.txt
+2025-03-06 14:37:40,935 - INFO - Reporte eliminado: reportes\informe_financiero_20250306_143704.txt
+2025-03-06 14:37:40,957 - INFO - Iniciando descarga de correos...
+2025-03-06 14:37:45,151 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:37:45,151 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:37:45,440 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:37:45,686 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:37:45,853 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:37:45,857 - INFO - Informe guardado: reportes/informe_financiero_20250306_143745.txt
+2025-03-06 14:38:10,494 - DEBUG - Modo debug activado
+2025-03-06 14:38:10,495 - INFO - Reporte eliminado: reportes\informe_financiero_20250306_143745.txt
+2025-03-06 14:38:10,516 - INFO - Iniciando descarga de correos...
+2025-03-06 14:38:14,773 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:38:14,773 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:38:15,218 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:38:15,455 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:38:15,724 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:38:15,726 - DEBUG - Buscando ancestros para el código: 1
+2025-03-06 14:38:15,727 - DEBUG - Total de ancestros encontrados para 1: 0
+2025-03-06 14:38:15,727 - DEBUG - Buscando ancestros para el código: 11
+2025-03-06 14:38:15,727 - DEBUG - Encontrado ancestro: 1 para 11
+2025-03-06 14:38:15,728 - DEBUG - Total de ancestros encontrados para 11: 1
+2025-03-06 14:38:15,728 - DEBUG - Buscando ancestros para el código: 1105
+2025-03-06 14:38:15,728 - DEBUG - Encontrado ancestro: 1 para 1105
+2025-03-06 14:38:15,728 - DEBUG - Encontrado ancestro: 11 para 1105
+2025-03-06 14:38:15,729 - DEBUG - Total de ancestros encontrados para 1105: 2
+2025-03-06 14:38:15,729 - DEBUG - Buscando ancestros para el código: 110510
+2025-03-06 14:38:15,730 - DEBUG - Encontrado ancestro: 1 para 110510
+2025-03-06 14:38:15,730 - DEBUG - Encontrado ancestro: 11 para 110510
+2025-03-06 14:38:15,731 - DEBUG - Encontrado ancestro: 1105 para 110510
+2025-03-06 14:38:15,731 - DEBUG - Total de ancestros encontrados para 110510: 3
+2025-03-06 14:38:15,732 - DEBUG - Buscando ancestros para el código: 11051001
+2025-03-06 14:38:15,732 - DEBUG - Encontrado ancestro: 1 para 11051001
+2025-03-06 14:38:15,732 - DEBUG - Encontrado ancestro: 11 para 11051001
+2025-03-06 14:38:15,733 - DEBUG - Encontrado ancestro: 1105 para 11051001
+2025-03-06 14:38:15,733 - DEBUG - Encontrado ancestro: 110510 para 11051001
+2025-03-06 14:38:15,733 - DEBUG - Total de ancestros encontrados para 11051001: 4
+2025-03-06 14:38:15,733 - DEBUG - Buscando ancestros para el código: 13
+2025-03-06 14:38:15,733 - DEBUG - Encontrado ancestro: 1 para 13
+2025-03-06 14:38:15,734 - DEBUG - Total de ancestros encontrados para 13: 1
+2025-03-06 14:38:15,734 - DEBUG - Buscando ancestros para el código: 1330
+2025-03-06 14:38:15,734 - DEBUG - Encontrado ancestro: 1 para 1330
+2025-03-06 14:38:15,735 - DEBUG - Encontrado ancestro: 13 para 1330
+2025-03-06 14:38:15,735 - DEBUG - Total de ancestros encontrados para 1330: 2
+2025-03-06 14:38:15,735 - DEBUG - Buscando ancestros para el código: 133005
+2025-03-06 14:38:15,736 - DEBUG - Encontrado ancestro: 1 para 133005
+2025-03-06 14:38:15,736 - DEBUG - Encontrado ancestro: 13 para 133005
+2025-03-06 14:38:15,736 - DEBUG - Encontrado ancestro: 1330 para 133005
+2025-03-06 14:38:15,737 - DEBUG - Total de ancestros encontrados para 133005: 3
+2025-03-06 14:38:15,737 - DEBUG - Buscando ancestros para el código: 13300501
+2025-03-06 14:38:15,737 - DEBUG - Encontrado ancestro: 1 para 13300501
+2025-03-06 14:38:15,738 - DEBUG - Encontrado ancestro: 13 para 13300501
+2025-03-06 14:38:15,738 - DEBUG - Encontrado ancestro: 1330 para 13300501
+2025-03-06 14:38:15,738 - DEBUG - Encontrado ancestro: 133005 para 13300501
+2025-03-06 14:38:15,738 - DEBUG - Total de ancestros encontrados para 13300501: 4
+2025-03-06 14:38:15,739 - DEBUG - Buscando ancestros para el código: 133010
+2025-03-06 14:38:15,739 - DEBUG - Encontrado ancestro: 1 para 133010
+2025-03-06 14:38:15,739 - DEBUG - Encontrado ancestro: 13 para 133010
+2025-03-06 14:38:15,739 - DEBUG - Encontrado ancestro: 1330 para 133010
+2025-03-06 14:38:15,739 - DEBUG - Total de ancestros encontrados para 133010: 3
+2025-03-06 14:38:15,740 - DEBUG - Buscando ancestros para el código: 13301001
+2025-03-06 14:38:15,740 - DEBUG - Encontrado ancestro: 1 para 13301001
+2025-03-06 14:38:15,740 - DEBUG - Encontrado ancestro: 13 para 13301001
+2025-03-06 14:38:15,740 - DEBUG - Encontrado ancestro: 1330 para 13301001
+2025-03-06 14:38:15,740 - DEBUG - Encontrado ancestro: 133010 para 13301001
+2025-03-06 14:38:15,740 - DEBUG - Total de ancestros encontrados para 13301001: 4
+2025-03-06 14:38:15,741 - DEBUG - Buscando ancestros para el código: 133015
+2025-03-06 14:38:15,741 - DEBUG - Encontrado ancestro: 1 para 133015
+2025-03-06 14:38:15,741 - DEBUG - Encontrado ancestro: 13 para 133015
+2025-03-06 14:38:15,741 - DEBUG - Encontrado ancestro: 1330 para 133015
+2025-03-06 14:38:15,742 - DEBUG - Total de ancestros encontrados para 133015: 3
+2025-03-06 14:38:15,742 - DEBUG - Buscando ancestros para el código: 13301501
+2025-03-06 14:38:15,742 - DEBUG - Encontrado ancestro: 1 para 13301501
+2025-03-06 14:38:15,742 - DEBUG - Encontrado ancestro: 13 para 13301501
+2025-03-06 14:38:15,742 - DEBUG - Encontrado ancestro: 1330 para 13301501
+2025-03-06 14:38:15,743 - DEBUG - Encontrado ancestro: 133015 para 13301501
+2025-03-06 14:38:15,743 - DEBUG - Total de ancestros encontrados para 13301501: 4
+2025-03-06 14:38:15,743 - DEBUG - Buscando ancestros para el código: 13301502
+2025-03-06 14:38:15,743 - DEBUG - Encontrado ancestro: 1 para 13301502
+2025-03-06 14:38:15,744 - DEBUG - Encontrado ancestro: 13 para 13301502
+2025-03-06 14:38:15,744 - DEBUG - Encontrado ancestro: 1330 para 13301502
+2025-03-06 14:38:15,744 - DEBUG - Encontrado ancestro: 133015 para 13301502
+2025-03-06 14:38:15,744 - DEBUG - Total de ancestros encontrados para 13301502: 4
+2025-03-06 14:38:15,744 - DEBUG - Buscando ancestros para el código: 1380
+2025-03-06 14:38:15,745 - DEBUG - Encontrado ancestro: 1 para 1380
+2025-03-06 14:38:15,745 - DEBUG - Encontrado ancestro: 13 para 1380
+2025-03-06 14:38:15,745 - DEBUG - Total de ancestros encontrados para 1380: 2
+2025-03-06 14:38:15,745 - DEBUG - Buscando ancestros para el código: 138005
+2025-03-06 14:38:15,746 - DEBUG - Encontrado ancestro: 1 para 138005
+2025-03-06 14:38:15,746 - DEBUG - Encontrado ancestro: 13 para 138005
+2025-03-06 14:38:15,746 - DEBUG - Encontrado ancestro: 1380 para 138005
+2025-03-06 14:38:15,746 - DEBUG - Total de ancestros encontrados para 138005: 3
+2025-03-06 14:38:15,747 - DEBUG - Buscando ancestros para el código: 13800511
+2025-03-06 14:38:15,747 - DEBUG - Encontrado ancestro: 1 para 13800511
+2025-03-06 14:38:15,747 - DEBUG - Encontrado ancestro: 13 para 13800511
+2025-03-06 14:38:15,747 - DEBUG - Encontrado ancestro: 1380 para 13800511
+2025-03-06 14:38:15,747 - DEBUG - Encontrado ancestro: 138005 para 13800511
+2025-03-06 14:38:15,748 - DEBUG - Total de ancestros encontrados para 13800511: 4
+2025-03-06 14:38:15,748 - DEBUG - Buscando ancestros para el código: 14
+2025-03-06 14:38:15,748 - DEBUG - Encontrado ancestro: 1 para 14
+2025-03-06 14:38:15,748 - DEBUG - Total de ancestros encontrados para 14: 1
+2025-03-06 14:38:15,748 - DEBUG - Buscando ancestros para el código: 1445
+2025-03-06 14:38:15,748 - DEBUG - Encontrado ancestro: 1 para 1445
+2025-03-06 14:38:15,749 - DEBUG - Encontrado ancestro: 14 para 1445
+2025-03-06 14:38:15,749 - DEBUG - Total de ancestros encontrados para 1445: 2
+2025-03-06 14:38:15,749 - DEBUG - Buscando ancestros para el código: 144505
+2025-03-06 14:38:15,749 - DEBUG - Encontrado ancestro: 1 para 144505
+2025-03-06 14:38:15,749 - DEBUG - Encontrado ancestro: 14 para 144505
+2025-03-06 14:38:15,749 - DEBUG - Encontrado ancestro: 1445 para 144505
+2025-03-06 14:38:15,750 - DEBUG - Total de ancestros encontrados para 144505: 3
+2025-03-06 14:38:15,750 - DEBUG - Buscando ancestros para el código: 144520
+2025-03-06 14:38:15,750 - DEBUG - Encontrado ancestro: 1 para 144520
+2025-03-06 14:38:15,750 - DEBUG - Encontrado ancestro: 14 para 144520
+2025-03-06 14:38:15,750 - DEBUG - Encontrado ancestro: 1445 para 144520
+2025-03-06 14:38:15,751 - DEBUG - Total de ancestros encontrados para 144520: 3
+2025-03-06 14:38:15,751 - DEBUG - Buscando ancestros para el código: 15
+2025-03-06 14:38:15,751 - DEBUG - Encontrado ancestro: 1 para 15
+2025-03-06 14:38:15,751 - DEBUG - Total de ancestros encontrados para 15: 1
+2025-03-06 14:38:15,751 - DEBUG - Buscando ancestros para el código: 1504
+2025-03-06 14:38:15,751 - DEBUG - Encontrado ancestro: 1 para 1504
+2025-03-06 14:38:15,752 - DEBUG - Encontrado ancestro: 15 para 1504
+2025-03-06 14:38:15,752 - DEBUG - Total de ancestros encontrados para 1504: 2
+2025-03-06 14:38:15,752 - DEBUG - Buscando ancestros para el código: 150405
+2025-03-06 14:38:15,752 - DEBUG - Encontrado ancestro: 1 para 150405
+2025-03-06 14:38:15,752 - DEBUG - Encontrado ancestro: 15 para 150405
+2025-03-06 14:38:15,752 - DEBUG - Encontrado ancestro: 1504 para 150405
+2025-03-06 14:38:15,753 - DEBUG - Total de ancestros encontrados para 150405: 3
+2025-03-06 14:38:15,753 - DEBUG - Buscando ancestros para el código: 15040505
+2025-03-06 14:38:15,753 - DEBUG - Encontrado ancestro: 1 para 15040505
+2025-03-06 14:38:15,753 - DEBUG - Encontrado ancestro: 15 para 15040505
+2025-03-06 14:38:15,753 - DEBUG - Encontrado ancestro: 1504 para 15040505
+2025-03-06 14:38:15,754 - DEBUG - Encontrado ancestro: 150405 para 15040505
+2025-03-06 14:38:15,754 - DEBUG - Total de ancestros encontrados para 15040505: 4
+2025-03-06 14:38:15,754 - DEBUG - Buscando ancestros para el código: 1520
+2025-03-06 14:38:15,754 - DEBUG - Encontrado ancestro: 1 para 1520
+2025-03-06 14:38:15,754 - DEBUG - Encontrado ancestro: 15 para 1520
+2025-03-06 14:38:15,754 - DEBUG - Total de ancestros encontrados para 1520: 2
+2025-03-06 14:38:15,754 - DEBUG - Buscando ancestros para el código: 152005
+2025-03-06 14:38:15,755 - DEBUG - Encontrado ancestro: 1 para 152005
+2025-03-06 14:38:15,755 - DEBUG - Encontrado ancestro: 15 para 152005
+2025-03-06 14:38:15,755 - DEBUG - Encontrado ancestro: 1520 para 152005
+2025-03-06 14:38:15,755 - DEBUG - Total de ancestros encontrados para 152005: 3
+2025-03-06 14:38:15,755 - DEBUG - Buscando ancestros para el código: 152010
+2025-03-06 14:38:15,755 - DEBUG - Encontrado ancestro: 1 para 152010
+2025-03-06 14:38:15,755 - DEBUG - Encontrado ancestro: 15 para 152010
+2025-03-06 14:38:15,756 - DEBUG - Encontrado ancestro: 1520 para 152010
+2025-03-06 14:38:15,756 - DEBUG - Total de ancestros encontrados para 152010: 3
+2025-03-06 14:38:15,756 - DEBUG - Buscando ancestros para el código: 1524
+2025-03-06 14:38:15,756 - DEBUG - Encontrado ancestro: 1 para 1524
+2025-03-06 14:38:15,756 - DEBUG - Encontrado ancestro: 15 para 1524
+2025-03-06 14:38:15,757 - DEBUG - Total de ancestros encontrados para 1524: 2
+2025-03-06 14:38:15,757 - DEBUG - Buscando ancestros para el código: 152405
+2025-03-06 14:38:15,757 - DEBUG - Encontrado ancestro: 1 para 152405
+2025-03-06 14:38:15,757 - DEBUG - Encontrado ancestro: 15 para 152405
+2025-03-06 14:38:15,757 - DEBUG - Encontrado ancestro: 1524 para 152405
+2025-03-06 14:38:15,757 - DEBUG - Total de ancestros encontrados para 152405: 3
+2025-03-06 14:38:15,758 - DEBUG - Buscando ancestros para el código: 15240501
+2025-03-06 14:38:15,758 - DEBUG - Encontrado ancestro: 1 para 15240501
+2025-03-06 14:38:15,758 - DEBUG - Encontrado ancestro: 15 para 15240501
+2025-03-06 14:38:15,758 - DEBUG - Encontrado ancestro: 1524 para 15240501
+2025-03-06 14:38:15,758 - DEBUG - Encontrado ancestro: 152405 para 15240501
+2025-03-06 14:38:15,759 - DEBUG - Total de ancestros encontrados para 15240501: 4
+2025-03-06 14:38:15,759 - DEBUG - Buscando ancestros para el código: 152410
+2025-03-06 14:38:15,759 - DEBUG - Encontrado ancestro: 1 para 152410
+2025-03-06 14:38:15,759 - DEBUG - Encontrado ancestro: 15 para 152410
+2025-03-06 14:38:15,759 - DEBUG - Encontrado ancestro: 1524 para 152410
+2025-03-06 14:38:15,759 - DEBUG - Total de ancestros encontrados para 152410: 3
+2025-03-06 14:38:15,760 - DEBUG - Buscando ancestros para el código: 15241001
+2025-03-06 14:38:15,760 - DEBUG - Encontrado ancestro: 1 para 15241001
+2025-03-06 14:38:15,760 - DEBUG - Encontrado ancestro: 15 para 15241001
+2025-03-06 14:38:15,760 - DEBUG - Encontrado ancestro: 1524 para 15241001
+2025-03-06 14:38:15,760 - DEBUG - Encontrado ancestro: 152410 para 15241001
+2025-03-06 14:38:15,760 - DEBUG - Total de ancestros encontrados para 15241001: 4
+2025-03-06 14:38:15,761 - DEBUG - Buscando ancestros para el código: 1540
+2025-03-06 14:38:15,761 - DEBUG - Encontrado ancestro: 1 para 1540
+2025-03-06 14:38:15,761 - DEBUG - Encontrado ancestro: 15 para 1540
+2025-03-06 14:38:15,761 - DEBUG - Total de ancestros encontrados para 1540: 2
+2025-03-06 14:38:15,761 - DEBUG - Buscando ancestros para el código: 154015
+2025-03-06 14:38:15,761 - DEBUG - Encontrado ancestro: 1 para 154015
+2025-03-06 14:38:15,762 - DEBUG - Encontrado ancestro: 15 para 154015
+2025-03-06 14:38:15,762 - DEBUG - Encontrado ancestro: 1540 para 154015
+2025-03-06 14:38:15,762 - DEBUG - Total de ancestros encontrados para 154015: 3
+2025-03-06 14:38:15,762 - DEBUG - Buscando ancestros para el código: 1592
+2025-03-06 14:38:15,762 - DEBUG - Encontrado ancestro: 1 para 1592
+2025-03-06 14:38:15,763 - DEBUG - Encontrado ancestro: 15 para 1592
+2025-03-06 14:38:15,763 - DEBUG - Total de ancestros encontrados para 1592: 2
+2025-03-06 14:38:15,763 - DEBUG - Buscando ancestros para el código: 159225
+2025-03-06 14:38:15,764 - DEBUG - Encontrado ancestro: 1 para 159225
+2025-03-06 14:38:15,764 - DEBUG - Encontrado ancestro: 15 para 159225
+2025-03-06 14:38:15,764 - DEBUG - Encontrado ancestro: 1592 para 159225
+2025-03-06 14:38:15,765 - DEBUG - Total de ancestros encontrados para 159225: 3
+2025-03-06 14:38:15,765 - DEBUG - Buscando ancestros para el código: 15922505
+2025-03-06 14:38:15,765 - DEBUG - Encontrado ancestro: 1 para 15922505
+2025-03-06 14:38:15,766 - DEBUG - Encontrado ancestro: 15 para 15922505
+2025-03-06 14:38:15,766 - DEBUG - Encontrado ancestro: 1592 para 15922505
+2025-03-06 14:38:15,766 - DEBUG - Encontrado ancestro: 159225 para 15922505
+2025-03-06 14:38:15,767 - DEBUG - Total de ancestros encontrados para 15922505: 4
+2025-03-06 14:38:15,767 - DEBUG - Buscando ancestros para el código: 2
+2025-03-06 14:38:15,767 - DEBUG - Total de ancestros encontrados para 2: 0
+2025-03-06 14:38:15,767 - DEBUG - Buscando ancestros para el código: 23
+2025-03-06 14:38:15,767 - DEBUG - Encontrado ancestro: 2 para 23
+2025-03-06 14:38:15,768 - DEBUG - Total de ancestros encontrados para 23: 1
+2025-03-06 14:38:15,768 - DEBUG - Buscando ancestros para el código: 2335
+2025-03-06 14:38:15,768 - DEBUG - Encontrado ancestro: 2 para 2335
+2025-03-06 14:38:15,768 - DEBUG - Encontrado ancestro: 23 para 2335
+2025-03-06 14:38:15,768 - DEBUG - Total de ancestros encontrados para 2335: 2
+2025-03-06 14:38:15,768 - DEBUG - Buscando ancestros para el código: 233525
+2025-03-06 14:38:15,769 - DEBUG - Encontrado ancestro: 2 para 233525
+2025-03-06 14:38:15,769 - DEBUG - Encontrado ancestro: 23 para 233525
+2025-03-06 14:38:15,769 - DEBUG - Encontrado ancestro: 2335 para 233525
+2025-03-06 14:38:15,769 - DEBUG - Total de ancestros encontrados para 233525: 3
+2025-03-06 14:38:15,769 - DEBUG - Buscando ancestros para el código: 23352501
+2025-03-06 14:38:15,770 - DEBUG - Encontrado ancestro: 2 para 23352501
+2025-03-06 14:38:15,770 - DEBUG - Encontrado ancestro: 23 para 23352501
+2025-03-06 14:38:15,770 - DEBUG - Encontrado ancestro: 2335 para 23352501
+2025-03-06 14:38:15,770 - DEBUG - Encontrado ancestro: 233525 para 23352501
+2025-03-06 14:38:15,770 - DEBUG - Total de ancestros encontrados para 23352501: 4
+2025-03-06 14:38:15,771 - DEBUG - Buscando ancestros para el código: 233595
+2025-03-06 14:38:15,771 - DEBUG - Encontrado ancestro: 2 para 233595
+2025-03-06 14:38:15,771 - DEBUG - Encontrado ancestro: 23 para 233595
+2025-03-06 14:38:15,771 - DEBUG - Encontrado ancestro: 2335 para 233595
+2025-03-06 14:38:15,771 - DEBUG - Total de ancestros encontrados para 233595: 3
+2025-03-06 14:38:15,772 - DEBUG - Buscando ancestros para el código: 23359501
+2025-03-06 14:38:15,772 - DEBUG - Encontrado ancestro: 2 para 23359501
+2025-03-06 14:38:15,772 - DEBUG - Encontrado ancestro: 23 para 23359501
+2025-03-06 14:38:15,772 - DEBUG - Encontrado ancestro: 2335 para 23359501
+2025-03-06 14:38:15,772 - DEBUG - Encontrado ancestro: 233595 para 23359501
+2025-03-06 14:38:15,772 - DEBUG - Total de ancestros encontrados para 23359501: 4
+2025-03-06 14:38:15,773 - DEBUG - Buscando ancestros para el código: 2355
+2025-03-06 14:38:15,773 - DEBUG - Encontrado ancestro: 2 para 2355
+2025-03-06 14:38:15,773 - DEBUG - Encontrado ancestro: 23 para 2355
+2025-03-06 14:38:15,773 - DEBUG - Total de ancestros encontrados para 2355: 2
+2025-03-06 14:38:15,773 - DEBUG - Buscando ancestros para el código: 235510
+2025-03-06 14:38:15,774 - DEBUG - Encontrado ancestro: 2 para 235510
+2025-03-06 14:38:15,774 - DEBUG - Encontrado ancestro: 23 para 235510
+2025-03-06 14:38:15,774 - DEBUG - Encontrado ancestro: 2355 para 235510
+2025-03-06 14:38:15,774 - DEBUG - Total de ancestros encontrados para 235510: 3
+2025-03-06 14:38:15,775 - DEBUG - Buscando ancestros para el código: 23551001
+2025-03-06 14:38:15,775 - DEBUG - Encontrado ancestro: 2 para 23551001
+2025-03-06 14:38:15,775 - DEBUG - Encontrado ancestro: 23 para 23551001
+2025-03-06 14:38:15,775 - DEBUG - Encontrado ancestro: 2355 para 23551001
+2025-03-06 14:38:15,775 - DEBUG - Encontrado ancestro: 235510 para 23551001
+2025-03-06 14:38:15,775 - DEBUG - Total de ancestros encontrados para 23551001: 4
+2025-03-06 14:38:15,776 - DEBUG - Buscando ancestros para el código: 23551002
+2025-03-06 14:38:15,776 - DEBUG - Encontrado ancestro: 2 para 23551002
+2025-03-06 14:38:15,776 - DEBUG - Encontrado ancestro: 23 para 23551002
+2025-03-06 14:38:15,776 - DEBUG - Encontrado ancestro: 2355 para 23551002
+2025-03-06 14:38:15,776 - DEBUG - Encontrado ancestro: 235510 para 23551002
+2025-03-06 14:38:15,776 - DEBUG - Total de ancestros encontrados para 23551002: 4
+2025-03-06 14:38:15,777 - DEBUG - Buscando ancestros para el código: 2365
+2025-03-06 14:38:15,777 - DEBUG - Encontrado ancestro: 2 para 2365
+2025-03-06 14:38:15,777 - DEBUG - Encontrado ancestro: 23 para 2365
+2025-03-06 14:38:15,777 - DEBUG - Total de ancestros encontrados para 2365: 2
+2025-03-06 14:38:15,777 - DEBUG - Buscando ancestros para el código: 236540
+2025-03-06 14:38:15,777 - DEBUG - Encontrado ancestro: 2 para 236540
+2025-03-06 14:38:15,778 - DEBUG - Encontrado ancestro: 23 para 236540
+2025-03-06 14:38:15,778 - DEBUG - Encontrado ancestro: 2365 para 236540
+2025-03-06 14:38:15,778 - DEBUG - Total de ancestros encontrados para 236540: 3
+2025-03-06 14:38:15,778 - DEBUG - Buscando ancestros para el código: 23654001
+2025-03-06 14:38:15,779 - DEBUG - Encontrado ancestro: 2 para 23654001
+2025-03-06 14:38:15,779 - DEBUG - Encontrado ancestro: 23 para 23654001
+2025-03-06 14:38:15,779 - DEBUG - Encontrado ancestro: 2365 para 23654001
+2025-03-06 14:38:15,779 - DEBUG - Encontrado ancestro: 236540 para 23654001
+2025-03-06 14:38:15,780 - DEBUG - Total de ancestros encontrados para 23654001: 4
+2025-03-06 14:38:15,780 - DEBUG - Buscando ancestros para el código: 2370
+2025-03-06 14:38:15,781 - DEBUG - Encontrado ancestro: 2 para 2370
+2025-03-06 14:38:15,781 - DEBUG - Encontrado ancestro: 23 para 2370
+2025-03-06 14:38:15,782 - DEBUG - Total de ancestros encontrados para 2370: 2
+2025-03-06 14:38:15,782 - DEBUG - Buscando ancestros para el código: 237005
+2025-03-06 14:38:15,783 - DEBUG - Encontrado ancestro: 2 para 237005
+2025-03-06 14:38:15,783 - DEBUG - Encontrado ancestro: 23 para 237005
+2025-03-06 14:38:15,783 - DEBUG - Encontrado ancestro: 2370 para 237005
+2025-03-06 14:38:15,784 - DEBUG - Total de ancestros encontrados para 237005: 3
+2025-03-06 14:38:15,784 - DEBUG - Buscando ancestros para el código: 23700501
+2025-03-06 14:38:15,784 - DEBUG - Encontrado ancestro: 2 para 23700501
+2025-03-06 14:38:15,785 - DEBUG - Encontrado ancestro: 23 para 23700501
+2025-03-06 14:38:15,785 - DEBUG - Encontrado ancestro: 2370 para 23700501
+2025-03-06 14:38:15,785 - DEBUG - Encontrado ancestro: 237005 para 23700501
+2025-03-06 14:38:15,786 - DEBUG - Total de ancestros encontrados para 23700501: 4
+2025-03-06 14:38:15,786 - DEBUG - Buscando ancestros para el código: 237010
+2025-03-06 14:38:15,786 - DEBUG - Encontrado ancestro: 2 para 237010
+2025-03-06 14:38:15,787 - DEBUG - Encontrado ancestro: 23 para 237010
+2025-03-06 14:38:15,787 - DEBUG - Encontrado ancestro: 2370 para 237010
+2025-03-06 14:38:15,787 - DEBUG - Total de ancestros encontrados para 237010: 3
+2025-03-06 14:38:15,787 - DEBUG - Buscando ancestros para el código: 23701001
+2025-03-06 14:38:15,788 - DEBUG - Encontrado ancestro: 2 para 23701001
+2025-03-06 14:38:15,788 - DEBUG - Encontrado ancestro: 23 para 23701001
+2025-03-06 14:38:15,788 - DEBUG - Encontrado ancestro: 2370 para 23701001
+2025-03-06 14:38:15,789 - DEBUG - Encontrado ancestro: 237010 para 23701001
+2025-03-06 14:38:15,789 - DEBUG - Total de ancestros encontrados para 23701001: 4
+2025-03-06 14:38:15,789 - DEBUG - Buscando ancestros para el código: 237015
+2025-03-06 14:38:15,789 - DEBUG - Encontrado ancestro: 2 para 237015
+2025-03-06 14:38:15,790 - DEBUG - Encontrado ancestro: 23 para 237015
+2025-03-06 14:38:15,790 - DEBUG - Encontrado ancestro: 2370 para 237015
+2025-03-06 14:38:15,790 - DEBUG - Total de ancestros encontrados para 237015: 3
+2025-03-06 14:38:15,791 - DEBUG - Buscando ancestros para el código: 23701501
+2025-03-06 14:38:15,791 - DEBUG - Encontrado ancestro: 2 para 23701501
+2025-03-06 14:38:15,791 - DEBUG - Encontrado ancestro: 23 para 23701501
+2025-03-06 14:38:15,791 - DEBUG - Encontrado ancestro: 2370 para 23701501
+2025-03-06 14:38:15,792 - DEBUG - Encontrado ancestro: 237015 para 23701501
+2025-03-06 14:38:15,792 - DEBUG - Total de ancestros encontrados para 23701501: 4
+2025-03-06 14:38:15,792 - DEBUG - Buscando ancestros para el código: 237045
+2025-03-06 14:38:15,792 - DEBUG - Encontrado ancestro: 2 para 237045
+2025-03-06 14:38:15,792 - DEBUG - Encontrado ancestro: 23 para 237045
+2025-03-06 14:38:15,793 - DEBUG - Encontrado ancestro: 2370 para 237045
+2025-03-06 14:38:15,793 - DEBUG - Total de ancestros encontrados para 237045: 3
+2025-03-06 14:38:15,793 - DEBUG - Buscando ancestros para el código: 23704501
+2025-03-06 14:38:15,793 - DEBUG - Encontrado ancestro: 2 para 23704501
+2025-03-06 14:38:15,793 - DEBUG - Encontrado ancestro: 23 para 23704501
+2025-03-06 14:38:15,794 - DEBUG - Encontrado ancestro: 2370 para 23704501
+2025-03-06 14:38:15,794 - DEBUG - Encontrado ancestro: 237045 para 23704501
+2025-03-06 14:38:15,794 - DEBUG - Total de ancestros encontrados para 23704501: 4
+2025-03-06 14:38:15,794 - DEBUG - Buscando ancestros para el código: 2380
+2025-03-06 14:38:15,795 - DEBUG - Encontrado ancestro: 2 para 2380
+2025-03-06 14:38:15,795 - DEBUG - Encontrado ancestro: 23 para 2380
+2025-03-06 14:38:15,795 - DEBUG - Total de ancestros encontrados para 2380: 2
+2025-03-06 14:38:15,795 - DEBUG - Buscando ancestros para el código: 238095
+2025-03-06 14:38:15,795 - DEBUG - Encontrado ancestro: 2 para 238095
+2025-03-06 14:38:15,796 - DEBUG - Encontrado ancestro: 23 para 238095
+2025-03-06 14:38:15,796 - DEBUG - Encontrado ancestro: 2380 para 238095
+2025-03-06 14:38:15,796 - DEBUG - Total de ancestros encontrados para 238095: 3
+2025-03-06 14:38:15,796 - DEBUG - Buscando ancestros para el código: 23809502
+2025-03-06 14:38:15,797 - DEBUG - Encontrado ancestro: 2 para 23809502
+2025-03-06 14:38:15,797 - DEBUG - Encontrado ancestro: 23 para 23809502
+2025-03-06 14:38:15,797 - DEBUG - Encontrado ancestro: 2380 para 23809502
+2025-03-06 14:38:15,797 - DEBUG - Encontrado ancestro: 238095 para 23809502
+2025-03-06 14:38:15,798 - DEBUG - Total de ancestros encontrados para 23809502: 4
+2025-03-06 14:38:15,798 - DEBUG - Buscando ancestros para el código: 23809507
+2025-03-06 14:38:15,798 - DEBUG - Encontrado ancestro: 2 para 23809507
+2025-03-06 14:38:15,799 - DEBUG - Encontrado ancestro: 23 para 23809507
+2025-03-06 14:38:15,799 - DEBUG - Encontrado ancestro: 2380 para 23809507
+2025-03-06 14:38:15,799 - DEBUG - Encontrado ancestro: 238095 para 23809507
+2025-03-06 14:38:15,799 - DEBUG - Total de ancestros encontrados para 23809507: 4
+2025-03-06 14:38:15,800 - DEBUG - Buscando ancestros para el código: 25
+2025-03-06 14:38:15,800 - DEBUG - Encontrado ancestro: 2 para 25
+2025-03-06 14:38:15,800 - DEBUG - Total de ancestros encontrados para 25: 1
+2025-03-06 14:38:15,800 - DEBUG - Buscando ancestros para el código: 2505
+2025-03-06 14:38:15,800 - DEBUG - Encontrado ancestro: 2 para 2505
+2025-03-06 14:38:15,800 - DEBUG - Encontrado ancestro: 25 para 2505
+2025-03-06 14:38:15,801 - DEBUG - Total de ancestros encontrados para 2505: 2
+2025-03-06 14:38:15,801 - DEBUG - Buscando ancestros para el código: 250505
+2025-03-06 14:38:15,801 - DEBUG - Encontrado ancestro: 2 para 250505
+2025-03-06 14:38:15,801 - DEBUG - Encontrado ancestro: 25 para 250505
+2025-03-06 14:38:15,801 - DEBUG - Encontrado ancestro: 2505 para 250505
+2025-03-06 14:38:15,802 - DEBUG - Total de ancestros encontrados para 250505: 3
+2025-03-06 14:38:15,802 - DEBUG - Buscando ancestros para el código: 25050501
+2025-03-06 14:38:15,802 - DEBUG - Encontrado ancestro: 2 para 25050501
+2025-03-06 14:38:15,802 - DEBUG - Encontrado ancestro: 25 para 25050501
+2025-03-06 14:38:15,802 - DEBUG - Encontrado ancestro: 2505 para 25050501
+2025-03-06 14:38:15,803 - DEBUG - Encontrado ancestro: 250505 para 25050501
+2025-03-06 14:38:15,803 - DEBUG - Total de ancestros encontrados para 25050501: 4
+2025-03-06 14:38:15,803 - DEBUG - Buscando ancestros para el código: 2510
+2025-03-06 14:38:15,803 - DEBUG - Encontrado ancestro: 2 para 2510
+2025-03-06 14:38:15,803 - DEBUG - Encontrado ancestro: 25 para 2510
+2025-03-06 14:38:15,804 - DEBUG - Total de ancestros encontrados para 2510: 2
+2025-03-06 14:38:15,804 - DEBUG - Buscando ancestros para el código: 251010
+2025-03-06 14:38:15,804 - DEBUG - Encontrado ancestro: 2 para 251010
+2025-03-06 14:38:15,804 - DEBUG - Encontrado ancestro: 25 para 251010
+2025-03-06 14:38:15,804 - DEBUG - Encontrado ancestro: 2510 para 251010
+2025-03-06 14:38:15,805 - DEBUG - Total de ancestros encontrados para 251010: 3
+2025-03-06 14:38:15,805 - DEBUG - Buscando ancestros para el código: 25101001
+2025-03-06 14:38:15,805 - DEBUG - Encontrado ancestro: 2 para 25101001
+2025-03-06 14:38:15,805 - DEBUG - Encontrado ancestro: 25 para 25101001
+2025-03-06 14:38:15,806 - DEBUG - Encontrado ancestro: 2510 para 25101001
+2025-03-06 14:38:15,806 - DEBUG - Encontrado ancestro: 251010 para 25101001
+2025-03-06 14:38:15,806 - DEBUG - Total de ancestros encontrados para 25101001: 4
+2025-03-06 14:38:15,806 - DEBUG - Buscando ancestros para el código: 2510100101
+2025-03-06 14:38:15,806 - DEBUG - Encontrado ancestro: 2 para 2510100101
+2025-03-06 14:38:15,807 - DEBUG - Encontrado ancestro: 25 para 2510100101
+2025-03-06 14:38:15,807 - DEBUG - Encontrado ancestro: 2510 para 2510100101
+2025-03-06 14:38:15,807 - DEBUG - Encontrado ancestro: 251010 para 2510100101
+2025-03-06 14:38:15,807 - DEBUG - Encontrado ancestro: 25101001 para 2510100101
+2025-03-06 14:38:15,807 - DEBUG - Total de ancestros encontrados para 2510100101: 5
+2025-03-06 14:38:15,808 - DEBUG - Buscando ancestros para el código: 25101002
+2025-03-06 14:38:15,808 - DEBUG - Encontrado ancestro: 2 para 25101002
+2025-03-06 14:38:15,808 - DEBUG - Encontrado ancestro: 25 para 25101002
+2025-03-06 14:38:15,808 - DEBUG - Encontrado ancestro: 2510 para 25101002
+2025-03-06 14:38:15,808 - DEBUG - Encontrado ancestro: 251010 para 25101002
+2025-03-06 14:38:15,808 - DEBUG - Total de ancestros encontrados para 25101002: 4
+2025-03-06 14:38:15,809 - DEBUG - Buscando ancestros para el código: 2510100201
+2025-03-06 14:38:15,809 - DEBUG - Encontrado ancestro: 2 para 2510100201
+2025-03-06 14:38:15,809 - DEBUG - Encontrado ancestro: 25 para 2510100201
+2025-03-06 14:38:15,809 - DEBUG - Encontrado ancestro: 2510 para 2510100201
+2025-03-06 14:38:15,809 - DEBUG - Encontrado ancestro: 251010 para 2510100201
+2025-03-06 14:38:15,810 - DEBUG - Encontrado ancestro: 25101002 para 2510100201
+2025-03-06 14:38:15,810 - DEBUG - Total de ancestros encontrados para 2510100201: 5
+2025-03-06 14:38:15,810 - DEBUG - Buscando ancestros para el código: 25101003
+2025-03-06 14:38:15,810 - DEBUG - Encontrado ancestro: 2 para 25101003
+2025-03-06 14:38:15,810 - DEBUG - Encontrado ancestro: 25 para 25101003
+2025-03-06 14:38:15,810 - DEBUG - Encontrado ancestro: 2510 para 25101003
+2025-03-06 14:38:15,810 - DEBUG - Encontrado ancestro: 251010 para 25101003
+2025-03-06 14:38:15,811 - DEBUG - Total de ancestros encontrados para 25101003: 4
+2025-03-06 14:38:15,811 - DEBUG - Buscando ancestros para el código: 2510100301
+2025-03-06 14:38:15,811 - DEBUG - Encontrado ancestro: 2 para 2510100301
+2025-03-06 14:38:15,811 - DEBUG - Encontrado ancestro: 25 para 2510100301
+2025-03-06 14:38:15,811 - DEBUG - Encontrado ancestro: 2510 para 2510100301
+2025-03-06 14:38:15,812 - DEBUG - Encontrado ancestro: 251010 para 2510100301
+2025-03-06 14:38:15,812 - DEBUG - Encontrado ancestro: 25101003 para 2510100301
+2025-03-06 14:38:15,812 - DEBUG - Total de ancestros encontrados para 2510100301: 5
+2025-03-06 14:38:15,812 - DEBUG - Buscando ancestros para el código: 25101004
+2025-03-06 14:38:15,812 - DEBUG - Encontrado ancestro: 2 para 25101004
+2025-03-06 14:38:15,812 - DEBUG - Encontrado ancestro: 25 para 25101004
+2025-03-06 14:38:15,813 - DEBUG - Encontrado ancestro: 2510 para 25101004
+2025-03-06 14:38:15,813 - DEBUG - Encontrado ancestro: 251010 para 25101004
+2025-03-06 14:38:15,813 - DEBUG - Total de ancestros encontrados para 25101004: 4
+2025-03-06 14:38:15,813 - DEBUG - Buscando ancestros para el código: 2510100401
+2025-03-06 14:38:15,813 - DEBUG - Encontrado ancestro: 2 para 2510100401
+2025-03-06 14:38:15,814 - DEBUG - Encontrado ancestro: 25 para 2510100401
+2025-03-06 14:38:15,814 - DEBUG - Encontrado ancestro: 2510 para 2510100401
+2025-03-06 14:38:15,814 - DEBUG - Encontrado ancestro: 251010 para 2510100401
+2025-03-06 14:38:15,814 - DEBUG - Encontrado ancestro: 25101004 para 2510100401
+2025-03-06 14:38:15,815 - DEBUG - Total de ancestros encontrados para 2510100401: 5
+2025-03-06 14:38:15,815 - DEBUG - Buscando ancestros para el código: 3
+2025-03-06 14:38:15,815 - DEBUG - Total de ancestros encontrados para 3: 0
+2025-03-06 14:38:15,815 - DEBUG - Buscando ancestros para el código: 36
+2025-03-06 14:38:15,815 - DEBUG - Encontrado ancestro: 3 para 36
+2025-03-06 14:38:15,816 - DEBUG - Total de ancestros encontrados para 36: 1
+2025-03-06 14:38:15,816 - DEBUG - Buscando ancestros para el código: 3610
+2025-03-06 14:38:15,816 - DEBUG - Encontrado ancestro: 3 para 3610
+2025-03-06 14:38:15,816 - DEBUG - Encontrado ancestro: 36 para 3610
+2025-03-06 14:38:15,816 - DEBUG - Total de ancestros encontrados para 3610: 2
+2025-03-06 14:38:15,817 - DEBUG - Buscando ancestros para el código: 361005
+2025-03-06 14:38:15,817 - DEBUG - Encontrado ancestro: 3 para 361005
+2025-03-06 14:38:15,817 - DEBUG - Encontrado ancestro: 36 para 361005
+2025-03-06 14:38:15,817 - DEBUG - Encontrado ancestro: 3610 para 361005
+2025-03-06 14:38:15,817 - DEBUG - Total de ancestros encontrados para 361005: 3
+2025-03-06 14:38:15,819 - INFO - Informe guardado: reportes/informe_financiero_20250306_143815.txt
+2025-03-06 14:38:59,233 - DEBUG - Modo debug activado
+2025-03-06 14:38:59,234 - INFO - Reporte eliminado: reportes\informe_financiero_20250306_143815.txt
+2025-03-06 14:38:59,252 - INFO - Iniciando descarga de correos...
+2025-03-06 14:39:03,369 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:39:03,369 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:39:03,761 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:39:03,981 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:39:04,146 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:39:04,149 - DEBUG - Buscando ancestros para el código: 1
+2025-03-06 14:39:04,149 - DEBUG - Total de ancestros encontrados para 1: 0
+2025-03-06 14:39:04,149 - DEBUG - Buscando ancestros para el código: 11
+2025-03-06 14:39:04,150 - DEBUG - Encontrado ancestro: 1 para 11
+2025-03-06 14:39:04,150 - DEBUG - Total de ancestros encontrados para 11: 1
+2025-03-06 14:39:04,150 - DEBUG - Buscando ancestros para el código: 1105
+2025-03-06 14:39:04,150 - DEBUG - Encontrado ancestro: 1 para 1105
+2025-03-06 14:39:04,151 - DEBUG - Encontrado ancestro: 11 para 1105
+2025-03-06 14:39:04,151 - DEBUG - Total de ancestros encontrados para 1105: 2
+2025-03-06 14:39:04,151 - DEBUG - Buscando ancestros para el código: 110510
+2025-03-06 14:39:04,151 - DEBUG - Encontrado ancestro: 1 para 110510
+2025-03-06 14:39:04,151 - DEBUG - Encontrado ancestro: 11 para 110510
+2025-03-06 14:39:04,152 - DEBUG - Encontrado ancestro: 1105 para 110510
+2025-03-06 14:39:04,152 - DEBUG - Total de ancestros encontrados para 110510: 3
+2025-03-06 14:39:04,152 - DEBUG - Buscando ancestros para el código: 11051001
+2025-03-06 14:39:04,152 - DEBUG - Encontrado ancestro: 1 para 11051001
+2025-03-06 14:39:04,153 - DEBUG - Encontrado ancestro: 11 para 11051001
+2025-03-06 14:39:04,153 - DEBUG - Encontrado ancestro: 1105 para 11051001
+2025-03-06 14:39:04,153 - DEBUG - Encontrado ancestro: 110510 para 11051001
+2025-03-06 14:39:04,154 - DEBUG - Total de ancestros encontrados para 11051001: 4
+2025-03-06 14:39:04,154 - DEBUG - Buscando ancestros para el código: 13
+2025-03-06 14:39:04,154 - DEBUG - Encontrado ancestro: 1 para 13
+2025-03-06 14:39:04,154 - DEBUG - Total de ancestros encontrados para 13: 1
+2025-03-06 14:39:04,154 - DEBUG - Buscando ancestros para el código: 1330
+2025-03-06 14:39:04,155 - DEBUG - Encontrado ancestro: 1 para 1330
+2025-03-06 14:39:04,155 - DEBUG - Encontrado ancestro: 13 para 1330
+2025-03-06 14:39:04,155 - DEBUG - Total de ancestros encontrados para 1330: 2
+2025-03-06 14:39:04,155 - DEBUG - Buscando ancestros para el código: 133005
+2025-03-06 14:39:04,155 - DEBUG - Encontrado ancestro: 1 para 133005
+2025-03-06 14:39:04,155 - DEBUG - Encontrado ancestro: 13 para 133005
+2025-03-06 14:39:04,155 - DEBUG - Encontrado ancestro: 1330 para 133005
+2025-03-06 14:39:04,155 - DEBUG - Total de ancestros encontrados para 133005: 3
+2025-03-06 14:39:04,156 - DEBUG - Buscando ancestros para el código: 13300501
+2025-03-06 14:39:04,156 - DEBUG - Encontrado ancestro: 1 para 13300501
+2025-03-06 14:39:04,156 - DEBUG - Encontrado ancestro: 13 para 13300501
+2025-03-06 14:39:04,156 - DEBUG - Encontrado ancestro: 1330 para 13300501
+2025-03-06 14:39:04,156 - DEBUG - Encontrado ancestro: 133005 para 13300501
+2025-03-06 14:39:04,157 - DEBUG - Total de ancestros encontrados para 13300501: 4
+2025-03-06 14:39:04,157 - DEBUG - Buscando ancestros para el código: 133010
+2025-03-06 14:39:04,157 - DEBUG - Encontrado ancestro: 1 para 133010
+2025-03-06 14:39:04,157 - DEBUG - Encontrado ancestro: 13 para 133010
+2025-03-06 14:39:04,157 - DEBUG - Encontrado ancestro: 1330 para 133010
+2025-03-06 14:39:04,157 - DEBUG - Total de ancestros encontrados para 133010: 3
+2025-03-06 14:39:04,158 - DEBUG - Buscando ancestros para el código: 13301001
+2025-03-06 14:39:04,158 - DEBUG - Encontrado ancestro: 1 para 13301001
+2025-03-06 14:39:04,158 - DEBUG - Encontrado ancestro: 13 para 13301001
+2025-03-06 14:39:04,158 - DEBUG - Encontrado ancestro: 1330 para 13301001
+2025-03-06 14:39:04,158 - DEBUG - Encontrado ancestro: 133010 para 13301001
+2025-03-06 14:39:04,158 - DEBUG - Total de ancestros encontrados para 13301001: 4
+2025-03-06 14:39:04,159 - DEBUG - Buscando ancestros para el código: 133015
+2025-03-06 14:39:04,159 - DEBUG - Encontrado ancestro: 1 para 133015
+2025-03-06 14:39:04,159 - DEBUG - Encontrado ancestro: 13 para 133015
+2025-03-06 14:39:04,159 - DEBUG - Encontrado ancestro: 1330 para 133015
+2025-03-06 14:39:04,159 - DEBUG - Total de ancestros encontrados para 133015: 3
+2025-03-06 14:39:04,159 - DEBUG - Buscando ancestros para el código: 13301501
+2025-03-06 14:39:04,159 - DEBUG - Encontrado ancestro: 1 para 13301501
+2025-03-06 14:39:04,160 - DEBUG - Encontrado ancestro: 13 para 13301501
+2025-03-06 14:39:04,160 - DEBUG - Encontrado ancestro: 1330 para 13301501
+2025-03-06 14:39:04,160 - DEBUG - Encontrado ancestro: 133015 para 13301501
+2025-03-06 14:39:04,160 - DEBUG - Total de ancestros encontrados para 13301501: 4
+2025-03-06 14:39:04,160 - DEBUG - Buscando ancestros para el código: 13301502
+2025-03-06 14:39:04,160 - DEBUG - Encontrado ancestro: 1 para 13301502
+2025-03-06 14:39:04,160 - DEBUG - Encontrado ancestro: 13 para 13301502
+2025-03-06 14:39:04,160 - DEBUG - Encontrado ancestro: 1330 para 13301502
+2025-03-06 14:39:04,161 - DEBUG - Encontrado ancestro: 133015 para 13301502
+2025-03-06 14:39:04,161 - DEBUG - Total de ancestros encontrados para 13301502: 4
+2025-03-06 14:39:04,161 - DEBUG - Buscando ancestros para el código: 1380
+2025-03-06 14:39:04,161 - DEBUG - Encontrado ancestro: 1 para 1380
+2025-03-06 14:39:04,161 - DEBUG - Encontrado ancestro: 13 para 1380
+2025-03-06 14:39:04,161 - DEBUG - Total de ancestros encontrados para 1380: 2
+2025-03-06 14:39:04,162 - DEBUG - Buscando ancestros para el código: 138005
+2025-03-06 14:39:04,162 - DEBUG - Encontrado ancestro: 1 para 138005
+2025-03-06 14:39:04,162 - DEBUG - Encontrado ancestro: 13 para 138005
+2025-03-06 14:39:04,162 - DEBUG - Encontrado ancestro: 1380 para 138005
+2025-03-06 14:39:04,162 - DEBUG - Total de ancestros encontrados para 138005: 3
+2025-03-06 14:39:04,162 - DEBUG - Buscando ancestros para el código: 13800511
+2025-03-06 14:39:04,163 - DEBUG - Encontrado ancestro: 1 para 13800511
+2025-03-06 14:39:04,163 - DEBUG - Encontrado ancestro: 13 para 13800511
+2025-03-06 14:39:04,163 - DEBUG - Encontrado ancestro: 1380 para 13800511
+2025-03-06 14:39:04,163 - DEBUG - Encontrado ancestro: 138005 para 13800511
+2025-03-06 14:39:04,163 - DEBUG - Total de ancestros encontrados para 13800511: 4
+2025-03-06 14:39:04,163 - DEBUG - Buscando ancestros para el código: 14
+2025-03-06 14:39:04,163 - DEBUG - Encontrado ancestro: 1 para 14
+2025-03-06 14:39:04,163 - DEBUG - Total de ancestros encontrados para 14: 1
+2025-03-06 14:39:04,163 - DEBUG - Buscando ancestros para el código: 1445
+2025-03-06 14:39:04,164 - DEBUG - Encontrado ancestro: 1 para 1445
+2025-03-06 14:39:04,164 - DEBUG - Encontrado ancestro: 14 para 1445
+2025-03-06 14:39:04,164 - DEBUG - Total de ancestros encontrados para 1445: 2
+2025-03-06 14:39:04,165 - DEBUG - Buscando ancestros para el código: 144505
+2025-03-06 14:39:04,165 - DEBUG - Encontrado ancestro: 1 para 144505
+2025-03-06 14:39:04,165 - DEBUG - Encontrado ancestro: 14 para 144505
+2025-03-06 14:39:04,165 - DEBUG - Encontrado ancestro: 1445 para 144505
+2025-03-06 14:39:04,165 - DEBUG - Total de ancestros encontrados para 144505: 3
+2025-03-06 14:39:04,166 - DEBUG - Buscando ancestros para el código: 144520
+2025-03-06 14:39:04,166 - DEBUG - Encontrado ancestro: 1 para 144520
+2025-03-06 14:39:04,166 - DEBUG - Encontrado ancestro: 14 para 144520
+2025-03-06 14:39:04,166 - DEBUG - Encontrado ancestro: 1445 para 144520
+2025-03-06 14:39:04,166 - DEBUG - Total de ancestros encontrados para 144520: 3
+2025-03-06 14:39:04,167 - DEBUG - Buscando ancestros para el código: 15
+2025-03-06 14:39:04,167 - DEBUG - Encontrado ancestro: 1 para 15
+2025-03-06 14:39:04,167 - DEBUG - Total de ancestros encontrados para 15: 1
+2025-03-06 14:39:04,167 - DEBUG - Buscando ancestros para el código: 1504
+2025-03-06 14:39:04,167 - DEBUG - Encontrado ancestro: 1 para 1504
+2025-03-06 14:39:04,167 - DEBUG - Encontrado ancestro: 15 para 1504
+2025-03-06 14:39:04,167 - DEBUG - Total de ancestros encontrados para 1504: 2
+2025-03-06 14:39:04,168 - DEBUG - Buscando ancestros para el código: 150405
+2025-03-06 14:39:04,168 - DEBUG - Encontrado ancestro: 1 para 150405
+2025-03-06 14:39:04,168 - DEBUG - Encontrado ancestro: 15 para 150405
+2025-03-06 14:39:04,168 - DEBUG - Encontrado ancestro: 1504 para 150405
+2025-03-06 14:39:04,168 - DEBUG - Total de ancestros encontrados para 150405: 3
+2025-03-06 14:39:04,168 - DEBUG - Buscando ancestros para el código: 15040505
+2025-03-06 14:39:04,169 - DEBUG - Encontrado ancestro: 1 para 15040505
+2025-03-06 14:39:04,169 - DEBUG - Encontrado ancestro: 15 para 15040505
+2025-03-06 14:39:04,169 - DEBUG - Encontrado ancestro: 1504 para 15040505
+2025-03-06 14:39:04,169 - DEBUG - Encontrado ancestro: 150405 para 15040505
+2025-03-06 14:39:04,169 - DEBUG - Total de ancestros encontrados para 15040505: 4
+2025-03-06 14:39:04,169 - DEBUG - Buscando ancestros para el código: 1520
+2025-03-06 14:39:04,170 - DEBUG - Encontrado ancestro: 1 para 1520
+2025-03-06 14:39:04,170 - DEBUG - Encontrado ancestro: 15 para 1520
+2025-03-06 14:39:04,170 - DEBUG - Total de ancestros encontrados para 1520: 2
+2025-03-06 14:39:04,170 - DEBUG - Buscando ancestros para el código: 152005
+2025-03-06 14:39:04,170 - DEBUG - Encontrado ancestro: 1 para 152005
+2025-03-06 14:39:04,170 - DEBUG - Encontrado ancestro: 15 para 152005
+2025-03-06 14:39:04,170 - DEBUG - Encontrado ancestro: 1520 para 152005
+2025-03-06 14:39:04,171 - DEBUG - Total de ancestros encontrados para 152005: 3
+2025-03-06 14:39:04,171 - DEBUG - Buscando ancestros para el código: 152010
+2025-03-06 14:39:04,171 - DEBUG - Encontrado ancestro: 1 para 152010
+2025-03-06 14:39:04,171 - DEBUG - Encontrado ancestro: 15 para 152010
+2025-03-06 14:39:04,172 - DEBUG - Encontrado ancestro: 1520 para 152010
+2025-03-06 14:39:04,172 - DEBUG - Total de ancestros encontrados para 152010: 3
+2025-03-06 14:39:04,172 - DEBUG - Buscando ancestros para el código: 1524
+2025-03-06 14:39:04,172 - DEBUG - Encontrado ancestro: 1 para 1524
+2025-03-06 14:39:04,172 - DEBUG - Encontrado ancestro: 15 para 1524
+2025-03-06 14:39:04,172 - DEBUG - Total de ancestros encontrados para 1524: 2
+2025-03-06 14:39:04,173 - DEBUG - Buscando ancestros para el código: 152405
+2025-03-06 14:39:04,173 - DEBUG - Encontrado ancestro: 1 para 152405
+2025-03-06 14:39:04,173 - DEBUG - Encontrado ancestro: 15 para 152405
+2025-03-06 14:39:04,173 - DEBUG - Encontrado ancestro: 1524 para 152405
+2025-03-06 14:39:04,173 - DEBUG - Total de ancestros encontrados para 152405: 3
+2025-03-06 14:39:04,173 - DEBUG - Buscando ancestros para el código: 15240501
+2025-03-06 14:39:04,173 - DEBUG - Encontrado ancestro: 1 para 15240501
+2025-03-06 14:39:04,173 - DEBUG - Encontrado ancestro: 15 para 15240501
+2025-03-06 14:39:04,174 - DEBUG - Encontrado ancestro: 1524 para 15240501
+2025-03-06 14:39:04,174 - DEBUG - Encontrado ancestro: 152405 para 15240501
+2025-03-06 14:39:04,174 - DEBUG - Total de ancestros encontrados para 15240501: 4
+2025-03-06 14:39:04,174 - DEBUG - Buscando ancestros para el código: 152410
+2025-03-06 14:39:04,174 - DEBUG - Encontrado ancestro: 1 para 152410
+2025-03-06 14:39:04,174 - DEBUG - Encontrado ancestro: 15 para 152410
+2025-03-06 14:39:04,174 - DEBUG - Encontrado ancestro: 1524 para 152410
+2025-03-06 14:39:04,175 - DEBUG - Total de ancestros encontrados para 152410: 3
+2025-03-06 14:39:04,175 - DEBUG - Buscando ancestros para el código: 15241001
+2025-03-06 14:39:04,175 - DEBUG - Encontrado ancestro: 1 para 15241001
+2025-03-06 14:39:04,175 - DEBUG - Encontrado ancestro: 15 para 15241001
+2025-03-06 14:39:04,175 - DEBUG - Encontrado ancestro: 1524 para 15241001
+2025-03-06 14:39:04,175 - DEBUG - Encontrado ancestro: 152410 para 15241001
+2025-03-06 14:39:04,176 - DEBUG - Total de ancestros encontrados para 15241001: 4
+2025-03-06 14:39:04,176 - DEBUG - Buscando ancestros para el código: 1540
+2025-03-06 14:39:04,176 - DEBUG - Encontrado ancestro: 1 para 1540
+2025-03-06 14:39:04,176 - DEBUG - Encontrado ancestro: 15 para 1540
+2025-03-06 14:39:04,176 - DEBUG - Total de ancestros encontrados para 1540: 2
+2025-03-06 14:39:04,176 - DEBUG - Buscando ancestros para el código: 154015
+2025-03-06 14:39:04,177 - DEBUG - Encontrado ancestro: 1 para 154015
+2025-03-06 14:39:04,177 - DEBUG - Encontrado ancestro: 15 para 154015
+2025-03-06 14:39:04,177 - DEBUG - Encontrado ancestro: 1540 para 154015
+2025-03-06 14:39:04,177 - DEBUG - Total de ancestros encontrados para 154015: 3
+2025-03-06 14:39:04,177 - DEBUG - Buscando ancestros para el código: 1592
+2025-03-06 14:39:04,177 - DEBUG - Encontrado ancestro: 1 para 1592
+2025-03-06 14:39:04,178 - DEBUG - Encontrado ancestro: 15 para 1592
+2025-03-06 14:39:04,178 - DEBUG - Total de ancestros encontrados para 1592: 2
+2025-03-06 14:39:04,178 - DEBUG - Buscando ancestros para el código: 159225
+2025-03-06 14:39:04,178 - DEBUG - Encontrado ancestro: 1 para 159225
+2025-03-06 14:39:04,178 - DEBUG - Encontrado ancestro: 15 para 159225
+2025-03-06 14:39:04,178 - DEBUG - Encontrado ancestro: 1592 para 159225
+2025-03-06 14:39:04,179 - DEBUG - Total de ancestros encontrados para 159225: 3
+2025-03-06 14:39:04,179 - DEBUG - Buscando ancestros para el código: 15922505
+2025-03-06 14:39:04,179 - DEBUG - Encontrado ancestro: 1 para 15922505
+2025-03-06 14:39:04,179 - DEBUG - Encontrado ancestro: 15 para 15922505
+2025-03-06 14:39:04,179 - DEBUG - Encontrado ancestro: 1592 para 15922505
+2025-03-06 14:39:04,180 - DEBUG - Encontrado ancestro: 159225 para 15922505
+2025-03-06 14:39:04,180 - DEBUG - Total de ancestros encontrados para 15922505: 4
+2025-03-06 14:39:04,180 - DEBUG - Buscando ancestros para el código: 2
+2025-03-06 14:39:04,180 - DEBUG - Total de ancestros encontrados para 2: 0
+2025-03-06 14:39:04,180 - DEBUG - Buscando ancestros para el código: 23
+2025-03-06 14:39:04,181 - DEBUG - Encontrado ancestro: 2 para 23
+2025-03-06 14:39:04,181 - DEBUG - Total de ancestros encontrados para 23: 1
+2025-03-06 14:39:04,182 - DEBUG - Buscando ancestros para el código: 2335
+2025-03-06 14:39:04,182 - DEBUG - Encontrado ancestro: 2 para 2335
+2025-03-06 14:39:04,182 - DEBUG - Encontrado ancestro: 23 para 2335
+2025-03-06 14:39:04,182 - DEBUG - Total de ancestros encontrados para 2335: 2
+2025-03-06 14:39:04,182 - DEBUG - Buscando ancestros para el código: 233525
+2025-03-06 14:39:04,183 - DEBUG - Encontrado ancestro: 2 para 233525
+2025-03-06 14:39:04,183 - DEBUG - Encontrado ancestro: 23 para 233525
+2025-03-06 14:39:04,183 - DEBUG - Encontrado ancestro: 2335 para 233525
+2025-03-06 14:39:04,183 - DEBUG - Total de ancestros encontrados para 233525: 3
+2025-03-06 14:39:04,183 - DEBUG - Buscando ancestros para el código: 23352501
+2025-03-06 14:39:04,184 - DEBUG - Encontrado ancestro: 2 para 23352501
+2025-03-06 14:39:04,184 - DEBUG - Encontrado ancestro: 23 para 23352501
+2025-03-06 14:39:04,184 - DEBUG - Encontrado ancestro: 2335 para 23352501
+2025-03-06 14:39:04,184 - DEBUG - Encontrado ancestro: 233525 para 23352501
+2025-03-06 14:39:04,184 - DEBUG - Total de ancestros encontrados para 23352501: 4
+2025-03-06 14:39:04,185 - DEBUG - Buscando ancestros para el código: 233595
+2025-03-06 14:39:04,185 - DEBUG - Encontrado ancestro: 2 para 233595
+2025-03-06 14:39:04,185 - DEBUG - Encontrado ancestro: 23 para 233595
+2025-03-06 14:39:04,185 - DEBUG - Encontrado ancestro: 2335 para 233595
+2025-03-06 14:39:04,185 - DEBUG - Total de ancestros encontrados para 233595: 3
+2025-03-06 14:39:04,185 - DEBUG - Buscando ancestros para el código: 23359501
+2025-03-06 14:39:04,186 - DEBUG - Encontrado ancestro: 2 para 23359501
+2025-03-06 14:39:04,186 - DEBUG - Encontrado ancestro: 23 para 23359501
+2025-03-06 14:39:04,186 - DEBUG - Encontrado ancestro: 2335 para 23359501
+2025-03-06 14:39:04,187 - DEBUG - Encontrado ancestro: 233595 para 23359501
+2025-03-06 14:39:04,187 - DEBUG - Total de ancestros encontrados para 23359501: 4
+2025-03-06 14:39:04,187 - DEBUG - Buscando ancestros para el código: 2355
+2025-03-06 14:39:04,187 - DEBUG - Encontrado ancestro: 2 para 2355
+2025-03-06 14:39:04,188 - DEBUG - Encontrado ancestro: 23 para 2355
+2025-03-06 14:39:04,188 - DEBUG - Total de ancestros encontrados para 2355: 2
+2025-03-06 14:39:04,188 - DEBUG - Buscando ancestros para el código: 235510
+2025-03-06 14:39:04,188 - DEBUG - Encontrado ancestro: 2 para 235510
+2025-03-06 14:39:04,188 - DEBUG - Encontrado ancestro: 23 para 235510
+2025-03-06 14:39:04,188 - DEBUG - Encontrado ancestro: 2355 para 235510
+2025-03-06 14:39:04,189 - DEBUG - Total de ancestros encontrados para 235510: 3
+2025-03-06 14:39:04,189 - DEBUG - Buscando ancestros para el código: 23551001
+2025-03-06 14:39:04,189 - DEBUG - Encontrado ancestro: 2 para 23551001
+2025-03-06 14:39:04,189 - DEBUG - Encontrado ancestro: 23 para 23551001
+2025-03-06 14:39:04,189 - DEBUG - Encontrado ancestro: 2355 para 23551001
+2025-03-06 14:39:04,189 - DEBUG - Encontrado ancestro: 235510 para 23551001
+2025-03-06 14:39:04,189 - DEBUG - Total de ancestros encontrados para 23551001: 4
+2025-03-06 14:39:04,190 - DEBUG - Buscando ancestros para el código: 23551002
+2025-03-06 14:39:04,190 - DEBUG - Encontrado ancestro: 2 para 23551002
+2025-03-06 14:39:04,190 - DEBUG - Encontrado ancestro: 23 para 23551002
+2025-03-06 14:39:04,190 - DEBUG - Encontrado ancestro: 2355 para 23551002
+2025-03-06 14:39:04,190 - DEBUG - Encontrado ancestro: 235510 para 23551002
+2025-03-06 14:39:04,190 - DEBUG - Total de ancestros encontrados para 23551002: 4
+2025-03-06 14:39:04,190 - DEBUG - Buscando ancestros para el código: 2365
+2025-03-06 14:39:04,191 - DEBUG - Encontrado ancestro: 2 para 2365
+2025-03-06 14:39:04,191 - DEBUG - Encontrado ancestro: 23 para 2365
+2025-03-06 14:39:04,191 - DEBUG - Total de ancestros encontrados para 2365: 2
+2025-03-06 14:39:04,191 - DEBUG - Buscando ancestros para el código: 236540
+2025-03-06 14:39:04,191 - DEBUG - Encontrado ancestro: 2 para 236540
+2025-03-06 14:39:04,191 - DEBUG - Encontrado ancestro: 23 para 236540
+2025-03-06 14:39:04,192 - DEBUG - Encontrado ancestro: 2365 para 236540
+2025-03-06 14:39:04,192 - DEBUG - Total de ancestros encontrados para 236540: 3
+2025-03-06 14:39:04,192 - DEBUG - Buscando ancestros para el código: 23654001
+2025-03-06 14:39:04,192 - DEBUG - Encontrado ancestro: 2 para 23654001
+2025-03-06 14:39:04,192 - DEBUG - Encontrado ancestro: 23 para 23654001
+2025-03-06 14:39:04,192 - DEBUG - Encontrado ancestro: 2365 para 23654001
+2025-03-06 14:39:04,193 - DEBUG - Encontrado ancestro: 236540 para 23654001
+2025-03-06 14:39:04,193 - DEBUG - Total de ancestros encontrados para 23654001: 4
+2025-03-06 14:39:04,193 - DEBUG - Buscando ancestros para el código: 2370
+2025-03-06 14:39:04,193 - DEBUG - Encontrado ancestro: 2 para 2370
+2025-03-06 14:39:04,193 - DEBUG - Encontrado ancestro: 23 para 2370
+2025-03-06 14:39:04,193 - DEBUG - Total de ancestros encontrados para 2370: 2
+2025-03-06 14:39:04,194 - DEBUG - Buscando ancestros para el código: 237005
+2025-03-06 14:39:04,194 - DEBUG - Encontrado ancestro: 2 para 237005
+2025-03-06 14:39:04,194 - DEBUG - Encontrado ancestro: 23 para 237005
+2025-03-06 14:39:04,194 - DEBUG - Encontrado ancestro: 2370 para 237005
+2025-03-06 14:39:04,194 - DEBUG - Total de ancestros encontrados para 237005: 3
+2025-03-06 14:39:04,194 - DEBUG - Buscando ancestros para el código: 23700501
+2025-03-06 14:39:04,195 - DEBUG - Encontrado ancestro: 2 para 23700501
+2025-03-06 14:39:04,195 - DEBUG - Encontrado ancestro: 23 para 23700501
+2025-03-06 14:39:04,195 - DEBUG - Encontrado ancestro: 2370 para 23700501
+2025-03-06 14:39:04,195 - DEBUG - Encontrado ancestro: 237005 para 23700501
+2025-03-06 14:39:04,195 - DEBUG - Total de ancestros encontrados para 23700501: 4
+2025-03-06 14:39:04,196 - DEBUG - Buscando ancestros para el código: 237010
+2025-03-06 14:39:04,196 - DEBUG - Encontrado ancestro: 2 para 237010
+2025-03-06 14:39:04,196 - DEBUG - Encontrado ancestro: 23 para 237010
+2025-03-06 14:39:04,196 - DEBUG - Encontrado ancestro: 2370 para 237010
+2025-03-06 14:39:04,196 - DEBUG - Total de ancestros encontrados para 237010: 3
+2025-03-06 14:39:04,196 - DEBUG - Buscando ancestros para el código: 23701001
+2025-03-06 14:39:04,196 - DEBUG - Encontrado ancestro: 2 para 23701001
+2025-03-06 14:39:04,197 - DEBUG - Encontrado ancestro: 23 para 23701001
+2025-03-06 14:39:04,197 - DEBUG - Encontrado ancestro: 2370 para 23701001
+2025-03-06 14:39:04,197 - DEBUG - Encontrado ancestro: 237010 para 23701001
+2025-03-06 14:39:04,197 - DEBUG - Total de ancestros encontrados para 23701001: 4
+2025-03-06 14:39:04,197 - DEBUG - Buscando ancestros para el código: 237015
+2025-03-06 14:39:04,198 - DEBUG - Encontrado ancestro: 2 para 237015
+2025-03-06 14:39:04,198 - DEBUG - Encontrado ancestro: 23 para 237015
+2025-03-06 14:39:04,198 - DEBUG - Encontrado ancestro: 2370 para 237015
+2025-03-06 14:39:04,199 - DEBUG - Total de ancestros encontrados para 237015: 3
+2025-03-06 14:39:04,199 - DEBUG - Buscando ancestros para el código: 23701501
+2025-03-06 14:39:04,199 - DEBUG - Encontrado ancestro: 2 para 23701501
+2025-03-06 14:39:04,199 - DEBUG - Encontrado ancestro: 23 para 23701501
+2025-03-06 14:39:04,199 - DEBUG - Encontrado ancestro: 2370 para 23701501
+2025-03-06 14:39:04,199 - DEBUG - Encontrado ancestro: 237015 para 23701501
+2025-03-06 14:39:04,200 - DEBUG - Total de ancestros encontrados para 23701501: 4
+2025-03-06 14:39:04,200 - DEBUG - Buscando ancestros para el código: 237045
+2025-03-06 14:39:04,200 - DEBUG - Encontrado ancestro: 2 para 237045
+2025-03-06 14:39:04,200 - DEBUG - Encontrado ancestro: 23 para 237045
+2025-03-06 14:39:04,200 - DEBUG - Encontrado ancestro: 2370 para 237045
+2025-03-06 14:39:04,201 - DEBUG - Total de ancestros encontrados para 237045: 3
+2025-03-06 14:39:04,201 - DEBUG - Buscando ancestros para el código: 23704501
+2025-03-06 14:39:04,201 - DEBUG - Encontrado ancestro: 2 para 23704501
+2025-03-06 14:39:04,201 - DEBUG - Encontrado ancestro: 23 para 23704501
+2025-03-06 14:39:04,202 - DEBUG - Encontrado ancestro: 2370 para 23704501
+2025-03-06 14:39:04,202 - DEBUG - Encontrado ancestro: 237045 para 23704501
+2025-03-06 14:39:04,202 - DEBUG - Total de ancestros encontrados para 23704501: 4
+2025-03-06 14:39:04,202 - DEBUG - Buscando ancestros para el código: 2380
+2025-03-06 14:39:04,202 - DEBUG - Encontrado ancestro: 2 para 2380
+2025-03-06 14:39:04,202 - DEBUG - Encontrado ancestro: 23 para 2380
+2025-03-06 14:39:04,203 - DEBUG - Total de ancestros encontrados para 2380: 2
+2025-03-06 14:39:04,203 - DEBUG - Buscando ancestros para el código: 238095
+2025-03-06 14:39:04,203 - DEBUG - Encontrado ancestro: 2 para 238095
+2025-03-06 14:39:04,203 - DEBUG - Encontrado ancestro: 23 para 238095
+2025-03-06 14:39:04,203 - DEBUG - Encontrado ancestro: 2380 para 238095
+2025-03-06 14:39:04,203 - DEBUG - Total de ancestros encontrados para 238095: 3
+2025-03-06 14:39:04,203 - DEBUG - Buscando ancestros para el código: 23809502
+2025-03-06 14:39:04,204 - DEBUG - Encontrado ancestro: 2 para 23809502
+2025-03-06 14:39:04,204 - DEBUG - Encontrado ancestro: 23 para 23809502
+2025-03-06 14:39:04,204 - DEBUG - Encontrado ancestro: 2380 para 23809502
+2025-03-06 14:39:04,204 - DEBUG - Encontrado ancestro: 238095 para 23809502
+2025-03-06 14:39:04,204 - DEBUG - Total de ancestros encontrados para 23809502: 4
+2025-03-06 14:39:04,204 - DEBUG - Buscando ancestros para el código: 23809507
+2025-03-06 14:39:04,205 - DEBUG - Encontrado ancestro: 2 para 23809507
+2025-03-06 14:39:04,205 - DEBUG - Encontrado ancestro: 23 para 23809507
+2025-03-06 14:39:04,205 - DEBUG - Encontrado ancestro: 2380 para 23809507
+2025-03-06 14:39:04,205 - DEBUG - Encontrado ancestro: 238095 para 23809507
+2025-03-06 14:39:04,205 - DEBUG - Total de ancestros encontrados para 23809507: 4
+2025-03-06 14:39:04,205 - DEBUG - Buscando ancestros para el código: 25
+2025-03-06 14:39:04,205 - DEBUG - Encontrado ancestro: 2 para 25
+2025-03-06 14:39:04,206 - DEBUG - Total de ancestros encontrados para 25: 1
+2025-03-06 14:39:04,206 - DEBUG - Buscando ancestros para el código: 2505
+2025-03-06 14:39:04,206 - DEBUG - Encontrado ancestro: 2 para 2505
+2025-03-06 14:39:04,206 - DEBUG - Encontrado ancestro: 25 para 2505
+2025-03-06 14:39:04,206 - DEBUG - Total de ancestros encontrados para 2505: 2
+2025-03-06 14:39:04,206 - DEBUG - Buscando ancestros para el código: 250505
+2025-03-06 14:39:04,207 - DEBUG - Encontrado ancestro: 2 para 250505
+2025-03-06 14:39:04,207 - DEBUG - Encontrado ancestro: 25 para 250505
+2025-03-06 14:39:04,207 - DEBUG - Encontrado ancestro: 2505 para 250505
+2025-03-06 14:39:04,207 - DEBUG - Total de ancestros encontrados para 250505: 3
+2025-03-06 14:39:04,207 - DEBUG - Buscando ancestros para el código: 25050501
+2025-03-06 14:39:04,207 - DEBUG - Encontrado ancestro: 2 para 25050501
+2025-03-06 14:39:04,207 - DEBUG - Encontrado ancestro: 25 para 25050501
+2025-03-06 14:39:04,208 - DEBUG - Encontrado ancestro: 2505 para 25050501
+2025-03-06 14:39:04,208 - DEBUG - Encontrado ancestro: 250505 para 25050501
+2025-03-06 14:39:04,208 - DEBUG - Total de ancestros encontrados para 25050501: 4
+2025-03-06 14:39:04,208 - DEBUG - Buscando ancestros para el código: 2510
+2025-03-06 14:39:04,208 - DEBUG - Encontrado ancestro: 2 para 2510
+2025-03-06 14:39:04,208 - DEBUG - Encontrado ancestro: 25 para 2510
+2025-03-06 14:39:04,209 - DEBUG - Total de ancestros encontrados para 2510: 2
+2025-03-06 14:39:04,209 - DEBUG - Buscando ancestros para el código: 251010
+2025-03-06 14:39:04,209 - DEBUG - Encontrado ancestro: 2 para 251010
+2025-03-06 14:39:04,209 - DEBUG - Encontrado ancestro: 25 para 251010
+2025-03-06 14:39:04,209 - DEBUG - Encontrado ancestro: 2510 para 251010
+2025-03-06 14:39:04,209 - DEBUG - Total de ancestros encontrados para 251010: 3
+2025-03-06 14:39:04,209 - DEBUG - Buscando ancestros para el código: 25101001
+2025-03-06 14:39:04,210 - DEBUG - Encontrado ancestro: 2 para 25101001
+2025-03-06 14:39:04,210 - DEBUG - Encontrado ancestro: 25 para 25101001
+2025-03-06 14:39:04,210 - DEBUG - Encontrado ancestro: 2510 para 25101001
+2025-03-06 14:39:04,210 - DEBUG - Encontrado ancestro: 251010 para 25101001
+2025-03-06 14:39:04,210 - DEBUG - Total de ancestros encontrados para 25101001: 4
+2025-03-06 14:39:04,210 - DEBUG - Buscando ancestros para el código: 2510100101
+2025-03-06 14:39:04,211 - DEBUG - Encontrado ancestro: 2 para 2510100101
+2025-03-06 14:39:04,211 - DEBUG - Encontrado ancestro: 25 para 2510100101
+2025-03-06 14:39:04,211 - DEBUG - Encontrado ancestro: 2510 para 2510100101
+2025-03-06 14:39:04,211 - DEBUG - Encontrado ancestro: 251010 para 2510100101
+2025-03-06 14:39:04,211 - DEBUG - Encontrado ancestro: 25101001 para 2510100101
+2025-03-06 14:39:04,211 - DEBUG - Total de ancestros encontrados para 2510100101: 5
+2025-03-06 14:39:04,212 - DEBUG - Buscando ancestros para el código: 25101002
+2025-03-06 14:39:04,212 - DEBUG - Encontrado ancestro: 2 para 25101002
+2025-03-06 14:39:04,212 - DEBUG - Encontrado ancestro: 25 para 25101002
+2025-03-06 14:39:04,212 - DEBUG - Encontrado ancestro: 2510 para 25101002
+2025-03-06 14:39:04,212 - DEBUG - Encontrado ancestro: 251010 para 25101002
+2025-03-06 14:39:04,212 - DEBUG - Total de ancestros encontrados para 25101002: 4
+2025-03-06 14:39:04,212 - DEBUG - Buscando ancestros para el código: 2510100201
+2025-03-06 14:39:04,213 - DEBUG - Encontrado ancestro: 2 para 2510100201
+2025-03-06 14:39:04,213 - DEBUG - Encontrado ancestro: 25 para 2510100201
+2025-03-06 14:39:04,213 - DEBUG - Encontrado ancestro: 2510 para 2510100201
+2025-03-06 14:39:04,213 - DEBUG - Encontrado ancestro: 251010 para 2510100201
+2025-03-06 14:39:04,213 - DEBUG - Encontrado ancestro: 25101002 para 2510100201
+2025-03-06 14:39:04,213 - DEBUG - Total de ancestros encontrados para 2510100201: 5
+2025-03-06 14:39:04,214 - DEBUG - Buscando ancestros para el código: 25101003
+2025-03-06 14:39:04,214 - DEBUG - Encontrado ancestro: 2 para 25101003
+2025-03-06 14:39:04,214 - DEBUG - Encontrado ancestro: 25 para 25101003
+2025-03-06 14:39:04,215 - DEBUG - Encontrado ancestro: 2510 para 25101003
+2025-03-06 14:39:04,215 - DEBUG - Encontrado ancestro: 251010 para 25101003
+2025-03-06 14:39:04,215 - DEBUG - Total de ancestros encontrados para 25101003: 4
+2025-03-06 14:39:04,215 - DEBUG - Buscando ancestros para el código: 2510100301
+2025-03-06 14:39:04,215 - DEBUG - Encontrado ancestro: 2 para 2510100301
+2025-03-06 14:39:04,215 - DEBUG - Encontrado ancestro: 25 para 2510100301
+2025-03-06 14:39:04,216 - DEBUG - Encontrado ancestro: 2510 para 2510100301
+2025-03-06 14:39:04,216 - DEBUG - Encontrado ancestro: 251010 para 2510100301
+2025-03-06 14:39:04,216 - DEBUG - Encontrado ancestro: 25101003 para 2510100301
+2025-03-06 14:39:04,216 - DEBUG - Total de ancestros encontrados para 2510100301: 5
+2025-03-06 14:39:04,217 - DEBUG - Buscando ancestros para el código: 25101004
+2025-03-06 14:39:04,217 - DEBUG - Encontrado ancestro: 2 para 25101004
+2025-03-06 14:39:04,217 - DEBUG - Encontrado ancestro: 25 para 25101004
+2025-03-06 14:39:04,217 - DEBUG - Encontrado ancestro: 2510 para 25101004
+2025-03-06 14:39:04,218 - DEBUG - Encontrado ancestro: 251010 para 25101004
+2025-03-06 14:39:04,218 - DEBUG - Total de ancestros encontrados para 25101004: 4
+2025-03-06 14:39:04,218 - DEBUG - Buscando ancestros para el código: 2510100401
+2025-03-06 14:39:04,218 - DEBUG - Encontrado ancestro: 2 para 2510100401
+2025-03-06 14:39:04,218 - DEBUG - Encontrado ancestro: 25 para 2510100401
+2025-03-06 14:39:04,219 - DEBUG - Encontrado ancestro: 2510 para 2510100401
+2025-03-06 14:39:04,219 - DEBUG - Encontrado ancestro: 251010 para 2510100401
+2025-03-06 14:39:04,219 - DEBUG - Encontrado ancestro: 25101004 para 2510100401
+2025-03-06 14:39:04,219 - DEBUG - Total de ancestros encontrados para 2510100401: 5
+2025-03-06 14:39:04,219 - DEBUG - Buscando ancestros para el código: 3
+2025-03-06 14:39:04,219 - DEBUG - Total de ancestros encontrados para 3: 0
+2025-03-06 14:39:04,220 - DEBUG - Buscando ancestros para el código: 36
+2025-03-06 14:39:04,220 - DEBUG - Encontrado ancestro: 3 para 36
+2025-03-06 14:39:04,220 - DEBUG - Total de ancestros encontrados para 36: 1
+2025-03-06 14:39:04,220 - DEBUG - Buscando ancestros para el código: 3610
+2025-03-06 14:39:04,220 - DEBUG - Encontrado ancestro: 3 para 3610
+2025-03-06 14:39:04,221 - DEBUG - Encontrado ancestro: 36 para 3610
+2025-03-06 14:39:04,221 - DEBUG - Total de ancestros encontrados para 3610: 2
+2025-03-06 14:39:04,221 - DEBUG - Buscando ancestros para el código: 361005
+2025-03-06 14:39:04,221 - DEBUG - Encontrado ancestro: 3 para 361005
+2025-03-06 14:39:04,221 - DEBUG - Encontrado ancestro: 36 para 361005
+2025-03-06 14:39:04,221 - DEBUG - Encontrado ancestro: 3610 para 361005
+2025-03-06 14:39:04,222 - DEBUG - Total de ancestros encontrados para 361005: 3
+2025-03-06 14:39:04,223 - INFO - Informe guardado: reportes/informe_financiero_20250306_143904.txt
+2025-03-06 14:39:31,856 - DEBUG - Modo debug activado
+2025-03-06 14:39:31,858 - INFO - Reporte eliminado: reportes\informe_financiero_20250306_143904.txt
+2025-03-06 14:39:31,874 - INFO - Iniciando descarga de correos...
+2025-03-06 14:39:34,612 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:39:34,612 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:39:34,867 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:39:35,316 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:39:35,458 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:39:35,460 - DEBUG - Buscando ancestros para el código: 1
+2025-03-06 14:39:35,460 - DEBUG - Total de ancestros encontrados para 1: 0
+2025-03-06 14:39:35,460 - DEBUG - Buscando ancestros para el código: 11
+2025-03-06 14:39:35,461 - DEBUG - Encontrado ancestro: 1 para 11
+2025-03-06 14:39:35,461 - DEBUG - Total de ancestros encontrados para 11: 1
+2025-03-06 14:39:35,461 - DEBUG - Buscando ancestros para el código: 1105
+2025-03-06 14:39:35,461 - DEBUG - Encontrado ancestro: 1 para 1105
+2025-03-06 14:39:35,462 - DEBUG - Encontrado ancestro: 11 para 1105
+2025-03-06 14:39:35,462 - DEBUG - Total de ancestros encontrados para 1105: 2
+2025-03-06 14:39:35,462 - DEBUG - Buscando ancestros para el código: 110510
+2025-03-06 14:39:35,462 - DEBUG - Encontrado ancestro: 1 para 110510
+2025-03-06 14:39:35,462 - DEBUG - Encontrado ancestro: 11 para 110510
+2025-03-06 14:39:35,462 - DEBUG - Encontrado ancestro: 1105 para 110510
+2025-03-06 14:39:35,463 - DEBUG - Total de ancestros encontrados para 110510: 3
+2025-03-06 14:39:35,463 - DEBUG - Buscando ancestros para el código: 11051001
+2025-03-06 14:39:35,463 - DEBUG - Encontrado ancestro: 1 para 11051001
+2025-03-06 14:39:35,463 - DEBUG - Encontrado ancestro: 11 para 11051001
+2025-03-06 14:39:35,464 - DEBUG - Encontrado ancestro: 1105 para 11051001
+2025-03-06 14:39:35,464 - DEBUG - Encontrado ancestro: 110510 para 11051001
+2025-03-06 14:39:35,464 - DEBUG - Total de ancestros encontrados para 11051001: 4
+2025-03-06 14:39:35,464 - DEBUG - Buscando ancestros para el código: 13
+2025-03-06 14:39:35,465 - DEBUG - Encontrado ancestro: 1 para 13
+2025-03-06 14:39:35,465 - DEBUG - Total de ancestros encontrados para 13: 1
+2025-03-06 14:39:35,465 - DEBUG - Buscando ancestros para el código: 1330
+2025-03-06 14:39:35,465 - DEBUG - Encontrado ancestro: 1 para 1330
+2025-03-06 14:39:35,466 - DEBUG - Encontrado ancestro: 13 para 1330
+2025-03-06 14:39:35,466 - DEBUG - Total de ancestros encontrados para 1330: 2
+2025-03-06 14:39:35,466 - DEBUG - Buscando ancestros para el código: 133005
+2025-03-06 14:39:35,466 - DEBUG - Encontrado ancestro: 1 para 133005
+2025-03-06 14:39:35,466 - DEBUG - Encontrado ancestro: 13 para 133005
+2025-03-06 14:39:35,467 - DEBUG - Encontrado ancestro: 1330 para 133005
+2025-03-06 14:39:35,467 - DEBUG - Total de ancestros encontrados para 133005: 3
+2025-03-06 14:39:35,467 - DEBUG - Buscando ancestros para el código: 13300501
+2025-03-06 14:39:35,467 - DEBUG - Encontrado ancestro: 1 para 13300501
+2025-03-06 14:39:35,467 - DEBUG - Encontrado ancestro: 13 para 13300501
+2025-03-06 14:39:35,468 - DEBUG - Encontrado ancestro: 1330 para 13300501
+2025-03-06 14:39:35,468 - DEBUG - Encontrado ancestro: 133005 para 13300501
+2025-03-06 14:39:35,468 - DEBUG - Total de ancestros encontrados para 13300501: 4
+2025-03-06 14:39:35,468 - DEBUG - Buscando ancestros para el código: 133010
+2025-03-06 14:39:35,469 - DEBUG - Encontrado ancestro: 1 para 133010
+2025-03-06 14:39:35,469 - DEBUG - Encontrado ancestro: 13 para 133010
+2025-03-06 14:39:35,469 - DEBUG - Encontrado ancestro: 1330 para 133010
+2025-03-06 14:39:35,469 - DEBUG - Total de ancestros encontrados para 133010: 3
+2025-03-06 14:39:35,469 - DEBUG - Buscando ancestros para el código: 13301001
+2025-03-06 14:39:35,470 - DEBUG - Encontrado ancestro: 1 para 13301001
+2025-03-06 14:39:35,470 - DEBUG - Encontrado ancestro: 13 para 13301001
+2025-03-06 14:39:35,470 - DEBUG - Encontrado ancestro: 1330 para 13301001
+2025-03-06 14:39:35,470 - DEBUG - Encontrado ancestro: 133010 para 13301001
+2025-03-06 14:39:35,471 - DEBUG - Total de ancestros encontrados para 13301001: 4
+2025-03-06 14:39:35,471 - DEBUG - Buscando ancestros para el código: 133015
+2025-03-06 14:39:35,471 - DEBUG - Encontrado ancestro: 1 para 133015
+2025-03-06 14:39:35,471 - DEBUG - Encontrado ancestro: 13 para 133015
+2025-03-06 14:39:35,471 - DEBUG - Encontrado ancestro: 1330 para 133015
+2025-03-06 14:39:35,472 - DEBUG - Total de ancestros encontrados para 133015: 3
+2025-03-06 14:39:35,472 - DEBUG - Buscando ancestros para el código: 13301501
+2025-03-06 14:39:35,472 - DEBUG - Encontrado ancestro: 1 para 13301501
+2025-03-06 14:39:35,472 - DEBUG - Encontrado ancestro: 13 para 13301501
+2025-03-06 14:39:35,472 - DEBUG - Encontrado ancestro: 1330 para 13301501
+2025-03-06 14:39:35,472 - DEBUG - Encontrado ancestro: 133015 para 13301501
+2025-03-06 14:39:35,472 - DEBUG - Total de ancestros encontrados para 13301501: 4
+2025-03-06 14:39:35,472 - DEBUG - Buscando ancestros para el código: 13301502
+2025-03-06 14:39:35,473 - DEBUG - Encontrado ancestro: 1 para 13301502
+2025-03-06 14:39:35,473 - DEBUG - Encontrado ancestro: 13 para 13301502
+2025-03-06 14:39:35,473 - DEBUG - Encontrado ancestro: 1330 para 13301502
+2025-03-06 14:39:35,473 - DEBUG - Encontrado ancestro: 133015 para 13301502
+2025-03-06 14:39:35,473 - DEBUG - Total de ancestros encontrados para 13301502: 4
+2025-03-06 14:39:35,474 - DEBUG - Buscando ancestros para el código: 1380
+2025-03-06 14:39:35,474 - DEBUG - Encontrado ancestro: 1 para 1380
+2025-03-06 14:39:35,474 - DEBUG - Encontrado ancestro: 13 para 1380
+2025-03-06 14:39:35,474 - DEBUG - Total de ancestros encontrados para 1380: 2
+2025-03-06 14:39:35,474 - DEBUG - Buscando ancestros para el código: 138005
+2025-03-06 14:39:35,474 - DEBUG - Encontrado ancestro: 1 para 138005
+2025-03-06 14:39:35,474 - DEBUG - Encontrado ancestro: 13 para 138005
+2025-03-06 14:39:35,475 - DEBUG - Encontrado ancestro: 1380 para 138005
+2025-03-06 14:39:35,475 - DEBUG - Total de ancestros encontrados para 138005: 3
+2025-03-06 14:39:35,475 - DEBUG - Buscando ancestros para el código: 13800511
+2025-03-06 14:39:35,475 - DEBUG - Encontrado ancestro: 1 para 13800511
+2025-03-06 14:39:35,475 - DEBUG - Encontrado ancestro: 13 para 13800511
+2025-03-06 14:39:35,475 - DEBUG - Encontrado ancestro: 1380 para 13800511
+2025-03-06 14:39:35,475 - DEBUG - Encontrado ancestro: 138005 para 13800511
+2025-03-06 14:39:35,475 - DEBUG - Total de ancestros encontrados para 13800511: 4
+2025-03-06 14:39:35,475 - DEBUG - Buscando ancestros para el código: 14
+2025-03-06 14:39:35,476 - DEBUG - Encontrado ancestro: 1 para 14
+2025-03-06 14:39:35,476 - DEBUG - Total de ancestros encontrados para 14: 1
+2025-03-06 14:39:35,476 - DEBUG - Buscando ancestros para el código: 1445
+2025-03-06 14:39:35,476 - DEBUG - Encontrado ancestro: 1 para 1445
+2025-03-06 14:39:35,476 - DEBUG - Encontrado ancestro: 14 para 1445
+2025-03-06 14:39:35,476 - DEBUG - Total de ancestros encontrados para 1445: 2
+2025-03-06 14:39:35,476 - DEBUG - Buscando ancestros para el código: 144505
+2025-03-06 14:39:35,476 - DEBUG - Encontrado ancestro: 1 para 144505
+2025-03-06 14:39:35,476 - DEBUG - Encontrado ancestro: 14 para 144505
+2025-03-06 14:39:35,477 - DEBUG - Encontrado ancestro: 1445 para 144505
+2025-03-06 14:39:35,477 - DEBUG - Total de ancestros encontrados para 144505: 3
+2025-03-06 14:39:35,477 - DEBUG - Buscando ancestros para el código: 144520
+2025-03-06 14:39:35,477 - DEBUG - Encontrado ancestro: 1 para 144520
+2025-03-06 14:39:35,477 - DEBUG - Encontrado ancestro: 14 para 144520
+2025-03-06 14:39:35,477 - DEBUG - Encontrado ancestro: 1445 para 144520
+2025-03-06 14:39:35,477 - DEBUG - Total de ancestros encontrados para 144520: 3
+2025-03-06 14:39:35,478 - DEBUG - Buscando ancestros para el código: 15
+2025-03-06 14:39:35,478 - DEBUG - Encontrado ancestro: 1 para 15
+2025-03-06 14:39:35,478 - DEBUG - Total de ancestros encontrados para 15: 1
+2025-03-06 14:39:35,479 - DEBUG - Buscando ancestros para el código: 1504
+2025-03-06 14:39:35,479 - DEBUG - Encontrado ancestro: 1 para 1504
+2025-03-06 14:39:35,479 - DEBUG - Encontrado ancestro: 15 para 1504
+2025-03-06 14:39:35,479 - DEBUG - Total de ancestros encontrados para 1504: 2
+2025-03-06 14:39:35,480 - DEBUG - Buscando ancestros para el código: 150405
+2025-03-06 14:39:35,480 - DEBUG - Encontrado ancestro: 1 para 150405
+2025-03-06 14:39:35,480 - DEBUG - Encontrado ancestro: 15 para 150405
+2025-03-06 14:39:35,480 - DEBUG - Encontrado ancestro: 1504 para 150405
+2025-03-06 14:39:35,480 - DEBUG - Total de ancestros encontrados para 150405: 3
+2025-03-06 14:39:35,480 - DEBUG - Buscando ancestros para el código: 15040505
+2025-03-06 14:39:35,481 - DEBUG - Encontrado ancestro: 1 para 15040505
+2025-03-06 14:39:35,481 - DEBUG - Encontrado ancestro: 15 para 15040505
+2025-03-06 14:39:35,481 - DEBUG - Encontrado ancestro: 1504 para 15040505
+2025-03-06 14:39:35,481 - DEBUG - Encontrado ancestro: 150405 para 15040505
+2025-03-06 14:39:35,481 - DEBUG - Total de ancestros encontrados para 15040505: 4
+2025-03-06 14:39:35,481 - DEBUG - Buscando ancestros para el código: 1520
+2025-03-06 14:39:35,482 - DEBUG - Encontrado ancestro: 1 para 1520
+2025-03-06 14:39:35,482 - DEBUG - Encontrado ancestro: 15 para 1520
+2025-03-06 14:39:35,482 - DEBUG - Total de ancestros encontrados para 1520: 2
+2025-03-06 14:39:35,482 - DEBUG - Buscando ancestros para el código: 152005
+2025-03-06 14:39:35,483 - DEBUG - Encontrado ancestro: 1 para 152005
+2025-03-06 14:39:35,483 - DEBUG - Encontrado ancestro: 15 para 152005
+2025-03-06 14:39:35,483 - DEBUG - Encontrado ancestro: 1520 para 152005
+2025-03-06 14:39:35,483 - DEBUG - Total de ancestros encontrados para 152005: 3
+2025-03-06 14:39:35,484 - DEBUG - Buscando ancestros para el código: 152010
+2025-03-06 14:39:35,484 - DEBUG - Encontrado ancestro: 1 para 152010
+2025-03-06 14:39:35,484 - DEBUG - Encontrado ancestro: 15 para 152010
+2025-03-06 14:39:35,484 - DEBUG - Encontrado ancestro: 1520 para 152010
+2025-03-06 14:39:35,484 - DEBUG - Total de ancestros encontrados para 152010: 3
+2025-03-06 14:39:35,484 - DEBUG - Buscando ancestros para el código: 1524
+2025-03-06 14:39:35,485 - DEBUG - Encontrado ancestro: 1 para 1524
+2025-03-06 14:39:35,485 - DEBUG - Encontrado ancestro: 15 para 1524
+2025-03-06 14:39:35,485 - DEBUG - Total de ancestros encontrados para 1524: 2
+2025-03-06 14:39:35,485 - DEBUG - Buscando ancestros para el código: 152405
+2025-03-06 14:39:35,485 - DEBUG - Encontrado ancestro: 1 para 152405
+2025-03-06 14:39:35,485 - DEBUG - Encontrado ancestro: 15 para 152405
+2025-03-06 14:39:35,486 - DEBUG - Encontrado ancestro: 1524 para 152405
+2025-03-06 14:39:35,486 - DEBUG - Total de ancestros encontrados para 152405: 3
+2025-03-06 14:39:35,486 - DEBUG - Buscando ancestros para el código: 15240501
+2025-03-06 14:39:35,486 - DEBUG - Encontrado ancestro: 1 para 15240501
+2025-03-06 14:39:35,486 - DEBUG - Encontrado ancestro: 15 para 15240501
+2025-03-06 14:39:35,486 - DEBUG - Encontrado ancestro: 1524 para 15240501
+2025-03-06 14:39:35,487 - DEBUG - Encontrado ancestro: 152405 para 15240501
+2025-03-06 14:39:35,487 - DEBUG - Total de ancestros encontrados para 15240501: 4
+2025-03-06 14:39:35,487 - DEBUG - Buscando ancestros para el código: 152410
+2025-03-06 14:39:35,487 - DEBUG - Encontrado ancestro: 1 para 152410
+2025-03-06 14:39:35,488 - DEBUG - Encontrado ancestro: 15 para 152410
+2025-03-06 14:39:35,488 - DEBUG - Encontrado ancestro: 1524 para 152410
+2025-03-06 14:39:35,489 - DEBUG - Total de ancestros encontrados para 152410: 3
+2025-03-06 14:39:35,489 - DEBUG - Buscando ancestros para el código: 15241001
+2025-03-06 14:39:35,489 - DEBUG - Encontrado ancestro: 1 para 15241001
+2025-03-06 14:39:35,489 - DEBUG - Encontrado ancestro: 15 para 15241001
+2025-03-06 14:39:35,489 - DEBUG - Encontrado ancestro: 1524 para 15241001
+2025-03-06 14:39:35,489 - DEBUG - Encontrado ancestro: 152410 para 15241001
+2025-03-06 14:39:35,490 - DEBUG - Total de ancestros encontrados para 15241001: 4
+2025-03-06 14:39:35,490 - DEBUG - Buscando ancestros para el código: 1540
+2025-03-06 14:39:35,490 - DEBUG - Encontrado ancestro: 1 para 1540
+2025-03-06 14:39:35,490 - DEBUG - Encontrado ancestro: 15 para 1540
+2025-03-06 14:39:35,490 - DEBUG - Total de ancestros encontrados para 1540: 2
+2025-03-06 14:39:35,491 - DEBUG - Buscando ancestros para el código: 154015
+2025-03-06 14:39:35,491 - DEBUG - Encontrado ancestro: 1 para 154015
+2025-03-06 14:39:35,491 - DEBUG - Encontrado ancestro: 15 para 154015
+2025-03-06 14:39:35,491 - DEBUG - Encontrado ancestro: 1540 para 154015
+2025-03-06 14:39:35,491 - DEBUG - Total de ancestros encontrados para 154015: 3
+2025-03-06 14:39:35,491 - DEBUG - Buscando ancestros para el código: 1592
+2025-03-06 14:39:35,491 - DEBUG - Encontrado ancestro: 1 para 1592
+2025-03-06 14:39:35,492 - DEBUG - Encontrado ancestro: 15 para 1592
+2025-03-06 14:39:35,492 - DEBUG - Total de ancestros encontrados para 1592: 2
+2025-03-06 14:39:35,492 - DEBUG - Buscando ancestros para el código: 159225
+2025-03-06 14:39:35,492 - DEBUG - Encontrado ancestro: 1 para 159225
+2025-03-06 14:39:35,492 - DEBUG - Encontrado ancestro: 15 para 159225
+2025-03-06 14:39:35,492 - DEBUG - Encontrado ancestro: 1592 para 159225
+2025-03-06 14:39:35,492 - DEBUG - Total de ancestros encontrados para 159225: 3
+2025-03-06 14:39:35,492 - DEBUG - Buscando ancestros para el código: 15922505
+2025-03-06 14:39:35,492 - DEBUG - Encontrado ancestro: 1 para 15922505
+2025-03-06 14:39:35,493 - DEBUG - Encontrado ancestro: 15 para 15922505
+2025-03-06 14:39:35,493 - DEBUG - Encontrado ancestro: 1592 para 15922505
+2025-03-06 14:39:35,493 - DEBUG - Encontrado ancestro: 159225 para 15922505
+2025-03-06 14:39:35,493 - DEBUG - Total de ancestros encontrados para 15922505: 4
+2025-03-06 14:39:35,493 - DEBUG - Buscando ancestros para el código: 2
+2025-03-06 14:39:35,493 - DEBUG - Total de ancestros encontrados para 2: 0
+2025-03-06 14:39:35,493 - DEBUG - Buscando ancestros para el código: 23
+2025-03-06 14:39:35,494 - DEBUG - Encontrado ancestro: 2 para 23
+2025-03-06 14:39:35,494 - DEBUG - Total de ancestros encontrados para 23: 1
+2025-03-06 14:39:35,494 - DEBUG - Buscando ancestros para el código: 2335
+2025-03-06 14:39:35,494 - DEBUG - Encontrado ancestro: 2 para 2335
+2025-03-06 14:39:35,494 - DEBUG - Encontrado ancestro: 23 para 2335
+2025-03-06 14:39:35,495 - DEBUG - Total de ancestros encontrados para 2335: 2
+2025-03-06 14:39:35,495 - DEBUG - Buscando ancestros para el código: 233525
+2025-03-06 14:39:35,495 - DEBUG - Encontrado ancestro: 2 para 233525
+2025-03-06 14:39:35,495 - DEBUG - Encontrado ancestro: 23 para 233525
+2025-03-06 14:39:35,495 - DEBUG - Encontrado ancestro: 2335 para 233525
+2025-03-06 14:39:35,496 - DEBUG - Total de ancestros encontrados para 233525: 3
+2025-03-06 14:39:35,496 - DEBUG - Buscando ancestros para el código: 23352501
+2025-03-06 14:39:35,496 - DEBUG - Encontrado ancestro: 2 para 23352501
+2025-03-06 14:39:35,496 - DEBUG - Encontrado ancestro: 23 para 23352501
+2025-03-06 14:39:35,496 - DEBUG - Encontrado ancestro: 2335 para 23352501
+2025-03-06 14:39:35,497 - DEBUG - Encontrado ancestro: 233525 para 23352501
+2025-03-06 14:39:35,497 - DEBUG - Total de ancestros encontrados para 23352501: 4
+2025-03-06 14:39:35,497 - DEBUG - Buscando ancestros para el código: 233595
+2025-03-06 14:39:35,497 - DEBUG - Encontrado ancestro: 2 para 233595
+2025-03-06 14:39:35,497 - DEBUG - Encontrado ancestro: 23 para 233595
+2025-03-06 14:39:35,498 - DEBUG - Encontrado ancestro: 2335 para 233595
+2025-03-06 14:39:35,498 - DEBUG - Total de ancestros encontrados para 233595: 3
+2025-03-06 14:39:35,498 - DEBUG - Buscando ancestros para el código: 23359501
+2025-03-06 14:39:35,499 - DEBUG - Encontrado ancestro: 2 para 23359501
+2025-03-06 14:39:35,499 - DEBUG - Encontrado ancestro: 23 para 23359501
+2025-03-06 14:39:35,500 - DEBUG - Encontrado ancestro: 2335 para 23359501
+2025-03-06 14:39:35,500 - DEBUG - Encontrado ancestro: 233595 para 23359501
+2025-03-06 14:39:35,500 - DEBUG - Total de ancestros encontrados para 23359501: 4
+2025-03-06 14:39:35,500 - DEBUG - Buscando ancestros para el código: 2355
+2025-03-06 14:39:35,501 - DEBUG - Encontrado ancestro: 2 para 2355
+2025-03-06 14:39:35,501 - DEBUG - Encontrado ancestro: 23 para 2355
+2025-03-06 14:39:35,501 - DEBUG - Total de ancestros encontrados para 2355: 2
+2025-03-06 14:39:35,501 - DEBUG - Buscando ancestros para el código: 235510
+2025-03-06 14:39:35,501 - DEBUG - Encontrado ancestro: 2 para 235510
+2025-03-06 14:39:35,501 - DEBUG - Encontrado ancestro: 23 para 235510
+2025-03-06 14:39:35,501 - DEBUG - Encontrado ancestro: 2355 para 235510
+2025-03-06 14:39:35,501 - DEBUG - Total de ancestros encontrados para 235510: 3
+2025-03-06 14:39:35,502 - DEBUG - Buscando ancestros para el código: 23551001
+2025-03-06 14:39:35,502 - DEBUG - Encontrado ancestro: 2 para 23551001
+2025-03-06 14:39:35,502 - DEBUG - Encontrado ancestro: 23 para 23551001
+2025-03-06 14:39:35,502 - DEBUG - Encontrado ancestro: 2355 para 23551001
+2025-03-06 14:39:35,502 - DEBUG - Encontrado ancestro: 235510 para 23551001
+2025-03-06 14:39:35,502 - DEBUG - Total de ancestros encontrados para 23551001: 4
+2025-03-06 14:39:35,502 - DEBUG - Buscando ancestros para el código: 23551002
+2025-03-06 14:39:35,502 - DEBUG - Encontrado ancestro: 2 para 23551002
+2025-03-06 14:39:35,502 - DEBUG - Encontrado ancestro: 23 para 23551002
+2025-03-06 14:39:35,503 - DEBUG - Encontrado ancestro: 2355 para 23551002
+2025-03-06 14:39:35,503 - DEBUG - Encontrado ancestro: 235510 para 23551002
+2025-03-06 14:39:35,503 - DEBUG - Total de ancestros encontrados para 23551002: 4
+2025-03-06 14:39:35,503 - DEBUG - Buscando ancestros para el código: 2365
+2025-03-06 14:39:35,503 - DEBUG - Encontrado ancestro: 2 para 2365
+2025-03-06 14:39:35,503 - DEBUG - Encontrado ancestro: 23 para 2365
+2025-03-06 14:39:35,503 - DEBUG - Total de ancestros encontrados para 2365: 2
+2025-03-06 14:39:35,503 - DEBUG - Buscando ancestros para el código: 236540
+2025-03-06 14:39:35,504 - DEBUG - Encontrado ancestro: 2 para 236540
+2025-03-06 14:39:35,504 - DEBUG - Encontrado ancestro: 23 para 236540
+2025-03-06 14:39:35,504 - DEBUG - Encontrado ancestro: 2365 para 236540
+2025-03-06 14:39:35,504 - DEBUG - Total de ancestros encontrados para 236540: 3
+2025-03-06 14:39:35,505 - DEBUG - Buscando ancestros para el código: 23654001
+2025-03-06 14:39:35,505 - DEBUG - Encontrado ancestro: 2 para 23654001
+2025-03-06 14:39:35,505 - DEBUG - Encontrado ancestro: 23 para 23654001
+2025-03-06 14:39:35,505 - DEBUG - Encontrado ancestro: 2365 para 23654001
+2025-03-06 14:39:35,505 - DEBUG - Encontrado ancestro: 236540 para 23654001
+2025-03-06 14:39:35,505 - DEBUG - Total de ancestros encontrados para 23654001: 4
+2025-03-06 14:39:35,506 - DEBUG - Buscando ancestros para el código: 2370
+2025-03-06 14:39:35,506 - DEBUG - Encontrado ancestro: 2 para 2370
+2025-03-06 14:39:35,506 - DEBUG - Encontrado ancestro: 23 para 2370
+2025-03-06 14:39:35,506 - DEBUG - Total de ancestros encontrados para 2370: 2
+2025-03-06 14:39:35,506 - DEBUG - Buscando ancestros para el código: 237005
+2025-03-06 14:39:35,507 - DEBUG - Encontrado ancestro: 2 para 237005
+2025-03-06 14:39:35,507 - DEBUG - Encontrado ancestro: 23 para 237005
+2025-03-06 14:39:35,507 - DEBUG - Encontrado ancestro: 2370 para 237005
+2025-03-06 14:39:35,507 - DEBUG - Total de ancestros encontrados para 237005: 3
+2025-03-06 14:39:35,507 - DEBUG - Buscando ancestros para el código: 23700501
+2025-03-06 14:39:35,507 - DEBUG - Encontrado ancestro: 2 para 23700501
+2025-03-06 14:39:35,508 - DEBUG - Encontrado ancestro: 23 para 23700501
+2025-03-06 14:39:35,508 - DEBUG - Encontrado ancestro: 2370 para 23700501
+2025-03-06 14:39:35,508 - DEBUG - Encontrado ancestro: 237005 para 23700501
+2025-03-06 14:39:35,508 - DEBUG - Total de ancestros encontrados para 23700501: 4
+2025-03-06 14:39:35,508 - DEBUG - Buscando ancestros para el código: 237010
+2025-03-06 14:39:35,509 - DEBUG - Encontrado ancestro: 2 para 237010
+2025-03-06 14:39:35,509 - DEBUG - Encontrado ancestro: 23 para 237010
+2025-03-06 14:39:35,509 - DEBUG - Encontrado ancestro: 2370 para 237010
+2025-03-06 14:39:35,509 - DEBUG - Total de ancestros encontrados para 237010: 3
+2025-03-06 14:39:35,510 - DEBUG - Buscando ancestros para el código: 23701001
+2025-03-06 14:39:35,510 - DEBUG - Encontrado ancestro: 2 para 23701001
+2025-03-06 14:39:35,510 - DEBUG - Encontrado ancestro: 23 para 23701001
+2025-03-06 14:39:35,510 - DEBUG - Encontrado ancestro: 2370 para 23701001
+2025-03-06 14:39:35,511 - DEBUG - Encontrado ancestro: 237010 para 23701001
+2025-03-06 14:39:35,511 - DEBUG - Total de ancestros encontrados para 23701001: 4
+2025-03-06 14:39:35,511 - DEBUG - Buscando ancestros para el código: 237015
+2025-03-06 14:39:35,511 - DEBUG - Encontrado ancestro: 2 para 237015
+2025-03-06 14:39:35,511 - DEBUG - Encontrado ancestro: 23 para 237015
+2025-03-06 14:39:35,512 - DEBUG - Encontrado ancestro: 2370 para 237015
+2025-03-06 14:39:35,512 - DEBUG - Total de ancestros encontrados para 237015: 3
+2025-03-06 14:39:35,512 - DEBUG - Buscando ancestros para el código: 23701501
+2025-03-06 14:39:35,512 - DEBUG - Encontrado ancestro: 2 para 23701501
+2025-03-06 14:39:35,512 - DEBUG - Encontrado ancestro: 23 para 23701501
+2025-03-06 14:39:35,512 - DEBUG - Encontrado ancestro: 2370 para 23701501
+2025-03-06 14:39:35,513 - DEBUG - Encontrado ancestro: 237015 para 23701501
+2025-03-06 14:39:35,513 - DEBUG - Total de ancestros encontrados para 23701501: 4
+2025-03-06 14:39:35,513 - DEBUG - Buscando ancestros para el código: 237045
+2025-03-06 14:39:35,513 - DEBUG - Encontrado ancestro: 2 para 237045
+2025-03-06 14:39:35,513 - DEBUG - Encontrado ancestro: 23 para 237045
+2025-03-06 14:39:35,513 - DEBUG - Encontrado ancestro: 2370 para 237045
+2025-03-06 14:39:35,514 - DEBUG - Total de ancestros encontrados para 237045: 3
+2025-03-06 14:39:35,514 - DEBUG - Buscando ancestros para el código: 23704501
+2025-03-06 14:39:35,514 - DEBUG - Encontrado ancestro: 2 para 23704501
+2025-03-06 14:39:35,515 - DEBUG - Encontrado ancestro: 23 para 23704501
+2025-03-06 14:39:35,515 - DEBUG - Encontrado ancestro: 2370 para 23704501
+2025-03-06 14:39:35,515 - DEBUG - Encontrado ancestro: 237045 para 23704501
+2025-03-06 14:39:35,516 - DEBUG - Total de ancestros encontrados para 23704501: 4
+2025-03-06 14:39:35,516 - DEBUG - Buscando ancestros para el código: 2380
+2025-03-06 14:39:35,516 - DEBUG - Encontrado ancestro: 2 para 2380
+2025-03-06 14:39:35,516 - DEBUG - Encontrado ancestro: 23 para 2380
+2025-03-06 14:39:35,516 - DEBUG - Total de ancestros encontrados para 2380: 2
+2025-03-06 14:39:35,517 - DEBUG - Buscando ancestros para el código: 238095
+2025-03-06 14:39:35,517 - DEBUG - Encontrado ancestro: 2 para 238095
+2025-03-06 14:39:35,517 - DEBUG - Encontrado ancestro: 23 para 238095
+2025-03-06 14:39:35,517 - DEBUG - Encontrado ancestro: 2380 para 238095
+2025-03-06 14:39:35,517 - DEBUG - Total de ancestros encontrados para 238095: 3
+2025-03-06 14:39:35,518 - DEBUG - Buscando ancestros para el código: 23809502
+2025-03-06 14:39:35,518 - DEBUG - Encontrado ancestro: 2 para 23809502
+2025-03-06 14:39:35,518 - DEBUG - Encontrado ancestro: 23 para 23809502
+2025-03-06 14:39:35,518 - DEBUG - Encontrado ancestro: 2380 para 23809502
+2025-03-06 14:39:35,518 - DEBUG - Encontrado ancestro: 238095 para 23809502
+2025-03-06 14:39:35,519 - DEBUG - Total de ancestros encontrados para 23809502: 4
+2025-03-06 14:39:35,519 - DEBUG - Buscando ancestros para el código: 23809507
+2025-03-06 14:39:35,519 - DEBUG - Encontrado ancestro: 2 para 23809507
+2025-03-06 14:39:35,519 - DEBUG - Encontrado ancestro: 23 para 23809507
+2025-03-06 14:39:35,519 - DEBUG - Encontrado ancestro: 2380 para 23809507
+2025-03-06 14:39:35,519 - DEBUG - Encontrado ancestro: 238095 para 23809507
+2025-03-06 14:39:35,520 - DEBUG - Total de ancestros encontrados para 23809507: 4
+2025-03-06 14:39:35,520 - DEBUG - Buscando ancestros para el código: 25
+2025-03-06 14:39:35,520 - DEBUG - Encontrado ancestro: 2 para 25
+2025-03-06 14:39:35,520 - DEBUG - Total de ancestros encontrados para 25: 1
+2025-03-06 14:39:35,520 - DEBUG - Buscando ancestros para el código: 2505
+2025-03-06 14:39:35,520 - DEBUG - Encontrado ancestro: 2 para 2505
+2025-03-06 14:39:35,521 - DEBUG - Encontrado ancestro: 25 para 2505
+2025-03-06 14:39:35,521 - DEBUG - Total de ancestros encontrados para 2505: 2
+2025-03-06 14:39:35,521 - DEBUG - Buscando ancestros para el código: 250505
+2025-03-06 14:39:35,521 - DEBUG - Encontrado ancestro: 2 para 250505
+2025-03-06 14:39:35,521 - DEBUG - Encontrado ancestro: 25 para 250505
+2025-03-06 14:39:35,521 - DEBUG - Encontrado ancestro: 2505 para 250505
+2025-03-06 14:39:35,521 - DEBUG - Total de ancestros encontrados para 250505: 3
+2025-03-06 14:39:35,521 - DEBUG - Buscando ancestros para el código: 25050501
+2025-03-06 14:39:35,521 - DEBUG - Encontrado ancestro: 2 para 25050501
+2025-03-06 14:39:35,522 - DEBUG - Encontrado ancestro: 25 para 25050501
+2025-03-06 14:39:35,522 - DEBUG - Encontrado ancestro: 2505 para 25050501
+2025-03-06 14:39:35,522 - DEBUG - Encontrado ancestro: 250505 para 25050501
+2025-03-06 14:39:35,522 - DEBUG - Total de ancestros encontrados para 25050501: 4
+2025-03-06 14:39:35,522 - DEBUG - Buscando ancestros para el código: 2510
+2025-03-06 14:39:35,522 - DEBUG - Encontrado ancestro: 2 para 2510
+2025-03-06 14:39:35,522 - DEBUG - Encontrado ancestro: 25 para 2510
+2025-03-06 14:39:35,522 - DEBUG - Total de ancestros encontrados para 2510: 2
+2025-03-06 14:39:35,523 - DEBUG - Buscando ancestros para el código: 251010
+2025-03-06 14:39:35,523 - DEBUG - Encontrado ancestro: 2 para 251010
+2025-03-06 14:39:35,523 - DEBUG - Encontrado ancestro: 25 para 251010
+2025-03-06 14:39:35,523 - DEBUG - Encontrado ancestro: 2510 para 251010
+2025-03-06 14:39:35,523 - DEBUG - Total de ancestros encontrados para 251010: 3
+2025-03-06 14:39:35,523 - DEBUG - Buscando ancestros para el código: 25101001
+2025-03-06 14:39:35,523 - DEBUG - Encontrado ancestro: 2 para 25101001
+2025-03-06 14:39:35,523 - DEBUG - Encontrado ancestro: 25 para 25101001
+2025-03-06 14:39:35,524 - DEBUG - Encontrado ancestro: 2510 para 25101001
+2025-03-06 14:39:35,524 - DEBUG - Encontrado ancestro: 251010 para 25101001
+2025-03-06 14:39:35,524 - DEBUG - Total de ancestros encontrados para 25101001: 4
+2025-03-06 14:39:35,524 - DEBUG - Buscando ancestros para el código: 2510100101
+2025-03-06 14:39:35,524 - DEBUG - Encontrado ancestro: 2 para 2510100101
+2025-03-06 14:39:35,525 - DEBUG - Encontrado ancestro: 25 para 2510100101
+2025-03-06 14:39:35,525 - DEBUG - Encontrado ancestro: 2510 para 2510100101
+2025-03-06 14:39:35,525 - DEBUG - Encontrado ancestro: 251010 para 2510100101
+2025-03-06 14:39:35,525 - DEBUG - Encontrado ancestro: 25101001 para 2510100101
+2025-03-06 14:39:35,525 - DEBUG - Total de ancestros encontrados para 2510100101: 5
+2025-03-06 14:39:35,525 - DEBUG - Buscando ancestros para el código: 25101002
+2025-03-06 14:39:35,526 - DEBUG - Encontrado ancestro: 2 para 25101002
+2025-03-06 14:39:35,526 - DEBUG - Encontrado ancestro: 25 para 25101002
+2025-03-06 14:39:35,526 - DEBUG - Encontrado ancestro: 2510 para 25101002
+2025-03-06 14:39:35,526 - DEBUG - Encontrado ancestro: 251010 para 25101002
+2025-03-06 14:39:35,526 - DEBUG - Total de ancestros encontrados para 25101002: 4
+2025-03-06 14:39:35,526 - DEBUG - Buscando ancestros para el código: 2510100201
+2025-03-06 14:39:35,526 - DEBUG - Encontrado ancestro: 2 para 2510100201
+2025-03-06 14:39:35,527 - DEBUG - Encontrado ancestro: 25 para 2510100201
+2025-03-06 14:39:35,527 - DEBUG - Encontrado ancestro: 2510 para 2510100201
+2025-03-06 14:39:35,527 - DEBUG - Encontrado ancestro: 251010 para 2510100201
+2025-03-06 14:39:35,527 - DEBUG - Encontrado ancestro: 25101002 para 2510100201
+2025-03-06 14:39:35,527 - DEBUG - Total de ancestros encontrados para 2510100201: 5
+2025-03-06 14:39:35,527 - DEBUG - Buscando ancestros para el código: 25101003
+2025-03-06 14:39:35,527 - DEBUG - Encontrado ancestro: 2 para 25101003
+2025-03-06 14:39:35,528 - DEBUG - Encontrado ancestro: 25 para 25101003
+2025-03-06 14:39:35,528 - DEBUG - Encontrado ancestro: 2510 para 25101003
+2025-03-06 14:39:35,528 - DEBUG - Encontrado ancestro: 251010 para 25101003
+2025-03-06 14:39:35,528 - DEBUG - Total de ancestros encontrados para 25101003: 4
+2025-03-06 14:39:35,528 - DEBUG - Buscando ancestros para el código: 2510100301
+2025-03-06 14:39:35,528 - DEBUG - Encontrado ancestro: 2 para 2510100301
+2025-03-06 14:39:35,528 - DEBUG - Encontrado ancestro: 25 para 2510100301
+2025-03-06 14:39:35,528 - DEBUG - Encontrado ancestro: 2510 para 2510100301
+2025-03-06 14:39:35,529 - DEBUG - Encontrado ancestro: 251010 para 2510100301
+2025-03-06 14:39:35,529 - DEBUG - Encontrado ancestro: 25101003 para 2510100301
+2025-03-06 14:39:35,529 - DEBUG - Total de ancestros encontrados para 2510100301: 5
+2025-03-06 14:39:35,529 - DEBUG - Buscando ancestros para el código: 25101004
+2025-03-06 14:39:35,529 - DEBUG - Encontrado ancestro: 2 para 25101004
+2025-03-06 14:39:35,529 - DEBUG - Encontrado ancestro: 25 para 25101004
+2025-03-06 14:39:35,530 - DEBUG - Encontrado ancestro: 2510 para 25101004
+2025-03-06 14:39:35,530 - DEBUG - Encontrado ancestro: 251010 para 25101004
+2025-03-06 14:39:35,530 - DEBUG - Total de ancestros encontrados para 25101004: 4
+2025-03-06 14:39:35,530 - DEBUG - Buscando ancestros para el código: 2510100401
+2025-03-06 14:39:35,530 - DEBUG - Encontrado ancestro: 2 para 2510100401
+2025-03-06 14:39:35,530 - DEBUG - Encontrado ancestro: 25 para 2510100401
+2025-03-06 14:39:35,530 - DEBUG - Encontrado ancestro: 2510 para 2510100401
+2025-03-06 14:39:35,531 - DEBUG - Encontrado ancestro: 251010 para 2510100401
+2025-03-06 14:39:35,537 - DEBUG - Encontrado ancestro: 25101004 para 2510100401
+2025-03-06 14:39:35,539 - DEBUG - Total de ancestros encontrados para 2510100401: 5
+2025-03-06 14:39:35,540 - DEBUG - Buscando ancestros para el código: 3
+2025-03-06 14:39:35,540 - DEBUG - Total de ancestros encontrados para 3: 0
+2025-03-06 14:39:35,540 - DEBUG - Buscando ancestros para el código: 36
+2025-03-06 14:39:35,541 - DEBUG - Encontrado ancestro: 3 para 36
+2025-03-06 14:39:35,541 - DEBUG - Total de ancestros encontrados para 36: 1
+2025-03-06 14:39:35,542 - DEBUG - Buscando ancestros para el código: 3610
+2025-03-06 14:39:35,542 - DEBUG - Encontrado ancestro: 3 para 3610
+2025-03-06 14:39:35,543 - DEBUG - Encontrado ancestro: 36 para 3610
+2025-03-06 14:39:35,543 - DEBUG - Total de ancestros encontrados para 3610: 2
+2025-03-06 14:39:35,543 - DEBUG - Buscando ancestros para el código: 361005
+2025-03-06 14:39:35,544 - DEBUG - Encontrado ancestro: 3 para 361005
+2025-03-06 14:39:35,544 - DEBUG - Encontrado ancestro: 36 para 361005
+2025-03-06 14:39:35,544 - DEBUG - Encontrado ancestro: 3610 para 361005
+2025-03-06 14:39:35,544 - DEBUG - Total de ancestros encontrados para 361005: 3
+2025-03-06 14:39:35,547 - INFO - Informe guardado: reportes/informe_financiero_20250306_143935.txt
+2025-03-06 14:43:18,084 - DEBUG - Modo debug activado
+2025-03-06 14:43:18,086 - INFO - Reporte eliminado: reportes\informe_financiero_20250306_143935.txt
+2025-03-06 14:43:18,102 - INFO - Iniciando descarga de correos...
+2025-03-06 14:43:21,359 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:43:21,360 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:43:21,688 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:43:21,908 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:43:22,074 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:43:22,078 - INFO - Informe guardado: reportes/informe_financiero_20250306_144322.txt
+2025-03-06 14:43:37,548 - INFO - Reporte eliminado: reportes\informe_financiero_20250306_144322.txt
+2025-03-06 14:43:37,565 - INFO - Iniciando descarga de correos...
+2025-03-06 14:43:40,694 - INFO - Archivo 5e6373eed103c54b7cf46a29dd639425b1c0ea52196352da3d34a8840a0a2e5f.jpeg no es un tipo soportado. Saltando...
+2025-03-06 14:43:40,695 - INFO - Archivo 184730.pdf no es un tipo soportado. Saltando...
+2025-03-06 14:43:41,011 - INFO - Descargado: Estado_de_situación_financiera__1_.xlsx
+2025-03-06 14:43:41,219 - INFO - Archivos descargados: ['Estado_de_situación_financiera__1_.xlsx']
+2025-03-06 14:43:41,373 - INFO - Cargado: Estado_de_situación_financiera__1_.xlsx (Excel)
+2025-03-06 14:43:41,377 - INFO - Informe guardado: reportes/informe_financiero_20250306_144341.txt

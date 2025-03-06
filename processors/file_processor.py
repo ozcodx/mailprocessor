@@ -2,6 +2,7 @@ import os
 import sys
 import pandas as pd
 from dotenv import load_dotenv
+import logging
 
 # Cargar variables de entorno
 load_dotenv()
@@ -33,18 +34,18 @@ def load_files(downloaded_files, download_folder=None):
             try:
                 df = pd.read_excel(filepath)
                 data[filename] = df
-                print(f"Cargado: {filename} (Excel)")
+                logging.info(f"Cargado: {filename} (Excel)")
             except Exception as e:
-                print(f"Error al cargar {filename}: {e}")
+                logging.error(f"Error al cargar {filename}: {e}")
         
         # Cargar archivos .csv
         elif filename.endswith('.csv'):
             try:
                 df = pd.read_csv(filepath)
                 data[filename] = df
-                print(f"Cargado: {filename} (CSV)")
+                logging.info(f"Cargado: {filename} (CSV)")
             except Exception as e:
-                print(f"Error al cargar {filename}: {e}")
+                logging.error(f"Error al cargar {filename}: {e}")
 
     return data
 
@@ -63,4 +64,32 @@ def get_available_files(download_folder=None):
         download_folder = DOWNLOAD_FOLDER
     
     return [f for f in os.listdir(download_folder) 
-            if f.endswith(('.xls', '.xlsx', '.csv'))] 
+            if f.endswith(('.xls', '.xlsx', '.csv'))]
+
+def load_file(filename):
+    """
+    Carga un archivo Excel o CSV y devuelve un DataFrame.
+    
+    Args:
+        filename (str): Ruta del archivo a cargar.
+        
+    Returns:
+        pandas.DataFrame: DataFrame con los datos cargados.
+    """
+    try:
+        if filename.lower().endswith(('.xlsx', '.xls')):
+            df = pd.read_excel(filename)
+            logging.info(f"Cargado: {filename} (Excel)")
+            return df
+    except Exception as e:
+        logging.error(f"Error al cargar {filename}: {e}")
+        return None
+    
+    try:
+        if filename.lower().endswith('.csv'):
+            df = pd.read_csv(filename)
+            logging.info(f"Cargado: {filename} (CSV)")
+            return df
+    except Exception as e:
+        logging.error(f"Error al cargar {filename}: {e}")
+        return None 

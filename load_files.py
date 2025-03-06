@@ -2,43 +2,76 @@ import os
 import pandas as pd
 from dotenv import load_dotenv
 import mail
+import logging
 
 load_dotenv()
 
 DOWNLOAD_FOLDER = os.getenv('DOWNLOAD_FOLDER')
 
-def load_files(downloaded_files, download_folder):
-    """Carga los archivos descargados y devuelve un diccionario con los datos."""
-    data = {}
+def load_file(filename):
+    """
+    Carga un archivo Excel o CSV y devuelve un DataFrame.
     
-    for filename in downloaded_files:
-        filepath = os.path.join(download_folder, filename)
+    Args:
+        filename (str): Ruta del archivo a cargar.
         
-        # Cargar archivos .xls y .xlsx
-        if filename.endswith(('.xls', '.xlsx')):
-            try:
-                df = pd.read_excel(filepath)
-                data[filename] = df
-                print(f"Cargado: {filename} (Excel)")
-            except Exception as e:
-                print(f"Error al cargar {filename}: {e}")
-        
-        # Cargar archivos .csv
-        elif filename.endswith('.csv'):
-            try:
-                df = pd.read_csv(filepath)
-                data[filename] = df
-                print(f"Cargado: {filename} (CSV)")
-            except Exception as e:
-                print(f"Error al cargar {filename}: {e}")
+    Returns:
+        pandas.DataFrame: DataFrame con los datos cargados.
+    """
+    try:
+        if filename.lower().endswith(('.xlsx', '.xls')):
+            df = pd.read_excel(filename)
+            logging.info(f"Cargado: {filename} (Excel)")
+            return df
+    except Exception as e:
+        logging.error(f"Error al cargar {filename}: {e}")
+        return None
+    
+    try:
+        if filename.lower().endswith('.csv'):
+            df = pd.read_csv(filename)
+            logging.info(f"Cargado: {filename} (CSV)")
+            return df
+    except Exception as e:
+        logging.error(f"Error al cargar {filename}: {e}")
+        return None
 
-    return data
+def load_files(folder_path):
+    """
+    Carga todos los archivos Excel y CSV de una carpeta.
+    
+    Args:
+        folder_path (str): Ruta de la carpeta a procesar.
+        
+    Returns:
+        dict: Diccionario con los DataFrames cargados.
+    """
+    loaded_data = {}
+    
+    # Verificar que la carpeta existe
+    if not os.path.exists(folder_path):
+        return loaded_data
+    
+    # Listar archivos en la carpeta
+    for filename in os.listdir(folder_path):
+        if filename.lower().endswith(('.xlsx', '.xls', '.csv')):
+            filepath = os.path.join(folder_path, filename)
+            df = load_file(filepath)
+            if df is not None:
+                loaded_data[filename] = df
+    
+    logging.info(f"Datos cargados: {len(loaded_data)} archivos")
+    return loaded_data
 
 if __name__ == '__main__':
-    # Suponiendo que tienes la lista de archivos descargados y la carpeta de descarga
-    downloaded_files = mail.download_attachments()
+    # Configurar logging
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    
+    # Descargar archivos adjuntos
     download_folder = DOWNLOAD_FOLDER
-
+    downloaded_files = mail.download_attachments()
+    
     # Cargar los archivos
-    loaded_data = load_files(downloaded_files, download_folder)
-    print("Datos cargados:", loaded_data)
+    loaded_data = load_files(download_folder)
+    # print("Datos cargados:", loaded_data)
+    logging.info(f"Datos cargados: {len(loaded_data) if loaded_data else 0} archivos")

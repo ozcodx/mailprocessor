@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import logging
 
 # Diccionario de categorías con sus IDs principales
 # Los IDs más cortos definen las categorías principales
@@ -27,7 +28,8 @@ def extract_financial_data(dataframe):
     
     # Verificar que el DataFrame tenga al menos 3 columnas
     if dataframe.shape[1] < 3:
-        print("El DataFrame no tiene suficientes columnas para extraer los datos financieros.")
+        # print("El DataFrame no tiene suficientes columnas para extraer los datos financieros.")
+        logging.warning("El DataFrame no tiene suficientes columnas para extraer los datos financieros.")
         return financial_data
     
     # Obtener los nombres de las columnas
@@ -179,7 +181,16 @@ def is_parent_code(parent_code, child_code):
     Returns:
         bool: True si parent_code es padre de child_code
     """
-    return len(parent_code) < len(child_code) and child_code.startswith(parent_code)
+    # Convertir a string si no lo son
+    parent_str = str(parent_code)
+    child_str = str(child_code)
+    
+    # Verificar que el padre sea más corto que el hijo
+    if len(parent_str) >= len(child_str):
+        return False
+    
+    # Verificar que el hijo comience con el padre
+    return child_str.startswith(parent_str)
 
 def find_ancestors(codigo, financial_data):
     """
@@ -195,16 +206,14 @@ def find_ancestors(codigo, financial_data):
     ancestros = []
     codigo_str = str(codigo)
     
-    # Crear un diccionario de códigos para búsqueda rápida
-    codigos_dict = {r["codigo"]: r for r in financial_data}
-    
-    # Obtener todos los posibles prefijos del código
-    for i in range(1, len(codigo_str)):
-        prefijo = codigo_str[:i]
-        if prefijo in codigos_dict:
-            registro = codigos_dict[prefijo]
+    # Buscar todos los posibles ancestros en los datos financieros
+    for registro in financial_data:
+        codigo_potencial_padre = str(registro["codigo"])
+        
+        # Verificar si este código es un ancestro del código actual
+        if is_parent_code(codigo_potencial_padre, codigo_str):
             ancestros.append({
-                "codigo": prefijo,
+                "codigo": codigo_potencial_padre,
                 "descripcion": registro["descripcion"],
                 "valor": registro["valor"],
                 "tipo": registro["tipo"],
@@ -212,39 +221,43 @@ def find_ancestors(codigo, financial_data):
             })
     
     # Ordenar ancestros por longitud del código (más cortos primero)
-    return sorted(ancestros, key=lambda x: len(x["codigo"]))
+    ancestros_ordenados = sorted(ancestros, key=lambda x: len(x["codigo"]))
+    return ancestros_ordenados
 
-def analyze_financial_data(financial_data):
+def analyze_financial_data(financial_data, debug=False):
     """
-    Realiza un análisis básico de los datos financieros.
+    Analiza los datos financieros y genera un informe.
     
     Args:
         financial_data (list): Lista de diccionarios con los datos financieros.
+        debug (bool): Si es True, muestra información adicional durante el análisis.
         
     Returns:
-        dict: Diccionario con los resultados del análisis.
+        dict: Resultados del análisis.
     """
-    if not financial_data:
-        return {"error": "No hay datos para analizar"}
-    
-    # Inicializar resultados
-    resultados = {
-        "total_activos": 0,
-        "total_pasivos": 0,
-        "total_patrimonio": 0,
-        "total_ingresos": 0,
-        "total_gastos": 0,
-        "total_costos": 0,
-        "resumen_por_tipo": {},
-        "resumen_por_categoria": {},
-        "indicadores": {},
-        "detalles_completos": []
+    results = {
+        'total_registros': len(financial_data),
+        'por_categoria': {},
+        'por_tipo': {},
+        'jerarquia': {},
+        'detalles_completos': []
     }
     
     # Procesar cada registro
     for registro in financial_data:
-        # Encontrar ancestros
-        ancestros = find_ancestors(registro["codigo"], financial_data)
+        if debug:
+            # print(f"Procesando código: {registro['codigo']}")
+            logging.debug(f"Procesando código: {registro['codigo']}")
+            
+        # Encontrar ancestros del código
+        ancestros = find_ancestors(registro['codigo'], financial_data)
+        
+        if debug:
+            # print(f"Ancestros encontrados: {len(ancestros)}")
+            logging.debug(f"Ancestros encontrados: {len(ancestros)}")
+            for ancestro in ancestros:
+                # print(f"  - {ancestro['codigo']}: {ancestro['descripcion']}")
+                logging.debug(f"  - {ancestro['codigo']}: {ancestro['descripcion']}")
         
         # Crear detalle básico
         detalle = {
@@ -256,14 +269,8 @@ def analyze_financial_data(financial_data):
             "ancestros": ancestros
         }
         
-        # Debug print
-        print(f"Procesando código: {registro['codigo']}")
-        print(f"Ancestros encontrados: {len(ancestros)}")
-        for ancestro in ancestros:
-            print(f"  - {ancestro['codigo']}: {ancestro['descripcion']}")
-        
-        # Agregar a la lista de detalles completos
-        resultados["detalles_completos"].append(detalle)
+        # Agregar el detalle a la lista de detalles completos
+        results["detalles_completos"].append(detalle)
         
         # Actualizar totales y resúmenes
         tipo = registro["tipo"]
@@ -272,33 +279,37 @@ def analyze_financial_data(financial_data):
         
         # Sumar al total correspondiente por tipo
         if tipo == "Activo":
-            resultados["total_activos"] += valor
+            results["total_activos"] = results.get("total_activos", 0) + valor
         elif tipo == "Pasivo":
-            resultados["total_pasivos"] += valor
+            results["total_pasivos"] = results.get("total_pasivos", 0) + valor
         elif tipo == "Patrimonio":
-            resultados["total_patrimonio"] += valor
+            results["total_patrimonio"] = results.get("total_patrimonio", 0) + valor
         elif tipo == "Ingreso":
-            resultados["total_ingresos"] += valor
+            results["total_ingresos"] = results.get("total_ingresos", 0) + valor
         elif tipo == "Gasto" or tipo == "Costo" or tipo == "Costo de producción":
             if tipo == "Gasto":
-                resultados["total_gastos"] += valor
+                results["total_gastos"] = results.get("total_gastos", 0) + valor
             else:
-                resultados["total_costos"] += valor
+                results["total_costos"] = results.get("total_costos", 0) + valor
         
         # Agregar al resumen por tipo
-        if tipo not in resultados["resumen_por_tipo"]:
-            resultados["resumen_por_tipo"][tipo] = 0
-        resultados["resumen_por_tipo"][tipo] += valor
+        if tipo not in results["por_tipo"]:
+            results["por_tipo"][tipo] = 0
+        results["por_tipo"][tipo] += valor
         
         # Agregar al resumen por categoría
-        if categoria not in resultados["resumen_por_categoria"]:
-            resultados["resumen_por_categoria"][categoria] = 0
-        resultados["resumen_por_categoria"][categoria] += valor
+        if categoria not in results["por_categoria"]:
+            results["por_categoria"][categoria] = 0
+        results["por_categoria"][categoria] += valor
     
     # Calcular utilidad
-    resultados["utilidad"] = resultados["total_ingresos"] - resultados["total_gastos"] - resultados["total_costos"]
+    total_ingresos = results.get("total_ingresos", 0)
+    total_gastos = results.get("total_gastos", 0)
+    total_costos = results.get("total_costos", 0)
     
-    return resultados
+    results["utilidad"] = total_ingresos - total_gastos - total_costos
+    
+    return results
 
 def generate_financial_report(financial_data, analysis_results=None, debug=False):
     """
@@ -326,16 +337,18 @@ def generate_financial_report(financial_data, analysis_results=None, debug=False
     informe.append("")
     
     # Resumen general
-    informe.append(f"Total Ingresos: ${analysis_results['total_ingresos']:,.2f}")
+    informe.append(f"Total Ingresos: ${analysis_results.get('total_ingresos', 0):,.2f}")
     informe.append("")
     
     # Egresos por categoría
-    informe.append(f"Total Egresos: ${analysis_results['total_gastos'] + analysis_results['total_costos']:,.2f}")
+    total_gastos = analysis_results.get('total_gastos', 0)
+    total_costos = analysis_results.get('total_costos', 0)
+    informe.append(f"Total Egresos: ${total_gastos + total_costos:,.2f}")
     # Ordenar categorías para que aparezcan en un orden específico
     orden_categorias = ["animales", "praderas", "oficina", "legal", "mejoras", "otros"]
     for categoria in orden_categorias:
-        if categoria in analysis_results["resumen_por_categoria"]:
-            valor = analysis_results["resumen_por_categoria"][categoria]
+        if categoria in analysis_results["por_categoria"]:
+            valor = analysis_results["por_categoria"][categoria]
             informe.append(f"    {categoria.capitalize()}: ${valor:,.2f}")
     informe.append("")
     
@@ -369,8 +382,11 @@ def generate_financial_report(financial_data, analysis_results=None, debug=False
                 informe.append(f"Valor: ${detalle['valor']:,.2f}")
                 informe.append(f"Tipo: {detalle['tipo']}")
                 informe.append("Ancestros:")
-                if detalle['ancestros']:
-                    for ancestro in detalle['ancestros']:
+                
+                # Verificar si el detalle tiene la clave 'ancestros'
+                ancestros = detalle.get('ancestros', [])
+                if ancestros:
+                    for ancestro in ancestros:
                         informe.append(f" - {ancestro['codigo']}: {ancestro['descripcion']}")
                 else:
                     informe.append(" - No se encontraron ancestros")
@@ -407,6 +423,8 @@ def clean_previous_reports(debug=False):
         for reporte in reportes:
             try:
                 os.remove(reporte)
-                print(f"Reporte eliminado: {reporte}")
+                # print(f"Reporte eliminado: {reporte}")
+                logging.info(f"Reporte eliminado: {reporte}")
             except Exception as e:
-                print(f"Error al eliminar {reporte}: {str(e)}") 
+                # print(f"Error al eliminar {reporte}: {str(e)}")
+                logging.error(f"Error al eliminar {reporte}: {str(e)}") 

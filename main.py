@@ -26,7 +26,7 @@ import processors
 load_dotenv()
 
 DOWNLOAD_FOLDER = os.getenv('DOWNLOAD_FOLDER')
-REPORTS_FOLDER = os.getenv('REPORTS_FOLDER', 'reports')
+REPORTS_FOLDER = os.getenv('REPORTS_FOLDER', 'reportes')
 
 # Configurar logging
 logging.basicConfig(
@@ -34,7 +34,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler('app.log'),
-        logging.StreamHandler()
+        logging.StreamHandler(sys.stderr)
     ]
 )
 
@@ -62,57 +62,40 @@ def main():
         # Limpiar reportes anteriores si estamos en modo debug
         if debug_mode:
             clean_previous_reports(debug=True)
-            logging.info("Modo debug activado - Reportes anteriores eliminados")
         
         # Paso 1: Descargar archivos adjuntos de correos electrónicos
         if args.debug:
-            print("Modo debug activado. Limpiando correos descargados...")
             processors.clean_downloaded_emails()
             downloaded_files = processors.download_attachments(force_download=True)
         elif not args.no_email:
-            print("Descargando archivos adjuntos de correos electrónicos...")
             downloaded_files = processors.download_attachments()
         else:
-            print("Usando archivos existentes...")
             downloaded_files = processors.get_available_files(DOWNLOAD_FOLDER)
         
-        print(f"Archivos disponibles: {downloaded_files}")
-        
         if not downloaded_files:
-            print("No hay archivos para procesar.")
+            logging.error("No hay archivos para procesar.")
             return
         
         # Paso 2: Cargar archivos
-        print("Cargando archivos...")
         loaded_data = processors.load_files(downloaded_files, DOWNLOAD_FOLDER)
         
         if not loaded_data:
-            print("No se pudieron cargar los archivos.")
+            logging.error("No se pudieron cargar los archivos.")
             return
         
         # Paso 3: Procesar cada archivo
-        for filename, dataframe in loaded_data.items():
-            print(f"\n{'='*50}")
-            print(f"Procesando archivo: {filename}")
-            print(f"{'='*50}")
-            
+        for filename in loaded_data:
             # Extraer datos financieros
-            print("Extrayendo datos financieros...")
-            financial_data = processors.extract_financial_data(dataframe)
-            
-            # Mostrar resultados de la extracción
-            print(f"Se extrajeron {len(financial_data)} registros financieros.")
+            financial_data = processors.extract_financial_data(loaded_data[filename])
             
             if not financial_data:
-                print("No se pudieron extraer registros financieros.")
+                logging.error(f"No se pudieron extraer datos de {filename}")
                 continue
             
             # Analizar los datos financieros
-            print("\nAnalizando datos financieros...")
             analysis_results = processors.analyze_financial_data(financial_data)
             
             # Generar informe
-            print("\nGenerando informe de estado...")
             report = generate_financial_report(financial_data, analysis_results, debug=debug_mode)
             
             # Crear directorio de reportes si no existe
@@ -126,11 +109,10 @@ def main():
             with open(report_file, "w", encoding="utf-8") as f:
                 f.write(report)
             
-            print(f"Informe guardado en: {report_file}")
-            logging.info(f"Informe generado exitosamente: {report_file}")
+            logging.info(f"Informe guardado: {report_file}")
         
     except Exception as e:
-        logging.error(f"Error al procesar el archivo: {str(e)}")
+        logging.error(f"Error: {str(e)}")
         raise
 
 if __name__ == "__main__":

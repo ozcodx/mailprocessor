@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 import load_files
 import pandas as pd
+import logging
 
 # Cargar variables de entorno
 load_dotenv()
@@ -21,40 +22,28 @@ def main():
     
     # Examinar cada DataFrame
     for filename, df in loaded_data.items():
-        print(f"\n{'='*50}")
-        print(f"Archivo: {filename}")
-        print(f"{'='*50}")
-        
-        # Mostrar información básica
-        print(f"Forma del DataFrame: {df.shape}")
-        print(f"Columnas: {df.columns.tolist()}")
-        
-        # Mostrar los primeros registros
-        print("\nPrimeros 10 registros:")
-        print(df.head(10))
-        
-        # Mostrar tipos de datos
-        print("\nTipos de datos:")
-        print(df.dtypes)
-        
-        # Verificar valores nulos
-        print("\nValores nulos por columna:")
-        print(df.isnull().sum())
-        
-        # Mostrar algunos registros específicos para entender mejor la estructura
-        print("\nRegistros con valores en la columna 'Unnamed: 0':")
-        if 'Unnamed: 0' in df.columns:
-            sample = df[df['Unnamed: 0'].notna()].head(5)
-            print(sample)
-        
-        # Mostrar registros que podrían contener códigos financieros
-        print("\nRegistros que podrían contener códigos financieros:")
-        # Buscar columnas que podrían contener códigos
-        for col in df.columns:
-            sample = df[df[col].astype(str).str.match(r'^\d+$', na=False)].head(5)
+        debug_dataframe(df, filename)
+
+def debug_dataframe(df, filename=None):
+    """
+    Muestra información de depuración sobre un DataFrame.
+    
+    Args:
+        df (pandas.DataFrame): DataFrame a depurar.
+        filename (str, optional): Nombre del archivo de origen.
+    """
+    # Verificar si hay una columna 'Unnamed: 0'
+    if 'Unnamed: 0' in df.columns:
+        sample = df[['Unnamed: 0']].head(5)
+    
+    # Buscar columnas que podrían contener códigos financieros
+    for col in df.columns:
+        if df[col].dtype == 'object':
+            sample = df[df[col].str.contains(r'^\d+$', na=False)].head(5)
             if not sample.empty:
-                print(f"Columna: {col}")
-                print(sample)
+                pass
+    
+    logging.info(f"Depuración completada para DataFrame {filename if filename else ''} de forma {df.shape}")
 
 if __name__ == "__main__":
     main() 

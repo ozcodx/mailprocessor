@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from datetime import datetime
+import logging
 
 def generate_report(financial_data, analysis_results, output_folder=None, filename_prefix="informe"):
     """
@@ -17,7 +18,7 @@ def generate_report(financial_data, analysis_results, output_folder=None, filena
         str: Ruta del archivo generado.
     """
     if not financial_data:
-        print("No hay datos para generar el informe.")
+        logging.warning("No hay datos para generar el informe.")
         return None
     
     # Crear el informe
@@ -108,7 +109,7 @@ def export_to_excel(financial_data, analysis_results, output_folder=None, filena
         str: Ruta del archivo generado.
     """
     if not financial_data:
-        print("No hay datos para exportar.")
+        logging.warning("No hay datos para exportar.")
         return None
     
     # Crear DataFrame con los datos financieros
